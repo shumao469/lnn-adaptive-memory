@@ -5,8 +5,6 @@ innovation correction in closed-loop state estimation. The repository component
 implements a bounded neural residual on top of a delayed Kalman filter and a
 paired double-integrator simulation.
 
-![Liquid residual observer and paired simulation](assets/overview.png)
-
 *Overview of the observer and evaluation design. The packet timeline is
 schematic; the displayed trajectories are simulations. Reacher values are
 evaluation criteria rather than measured experimental results.*
