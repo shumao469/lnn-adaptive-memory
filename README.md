@@ -5,10 +5,6 @@ innovation correction in closed-loop state estimation. The repository component
 implements a bounded neural residual on top of a delayed Kalman filter and a
 paired double-integrator simulation.
 
-*Overview of the observer and evaluation design. The packet timeline is
-schematic; the displayed trajectories are simulations. Reacher values are
-evaluation criteria rather than measured experimental results.*
-
 ## What is included
 
 - A double-integrator plant, asynchronous observations, process and measurement
