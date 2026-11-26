@@ -1,0 +1,9 @@
+{
+  "status": "completed",
+  "protocol_sha256": "534b7099de77397115c87e19a9c2eedc26c15003bb3f3cf12f9202ff6d06cd07",
+  "checkpoint_files": {
+    "seed_8210001.pt": "87f7bfc483b55b0eea1ba2e6dd1442c2044c7f001976cf58c2208b3c06dd74c2",
+    "seed_8210002.pt": "22a7700a93ca6f8731ca7e06c5eb7f0b85bd0576fa953d15db6cd390daf1a425",
+    "seed_8210003.pt": "aca72d437f11224f2b6bbd9892d74212adfe761e652cbb4a77a75bf4c6fde64d"
+  }
+}

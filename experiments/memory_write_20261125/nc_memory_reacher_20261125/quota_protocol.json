@@ -1,0 +1,8 @@
+{
+  "scope": "exploratory fixed evaluation-window write-budget comparator",
+  "design": "before tick 60 always write, then exactly 45 writes in 90 post-shift packet-event ticks for each gate",
+  "availability": "simulation uses known remaining 90-event horizon; force if remaining events equals remaining budget, stop writes once budget exhausted",
+  "gate_thresholds": "development-calibrated threshold from gate_calibration.json; no outcomes or noise condition used online",
+  "features": "same learned/age/innovation policies, PD controller, velocity filtering and exogenous pairing as original evaluation",
+  "metrics": "forced tail writes, post-shift events, write rate, tracking, squared actuator command integral, saturation, failure"
+}

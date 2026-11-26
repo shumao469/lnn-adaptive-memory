@@ -1,0 +1,7 @@
+{
+  "status": "complete",
+  "number_pairs": 864,
+  "tracking_keep_minus_gate": -1.8863276599125906e-05,
+  "control_keep_minus_gate": -0.00017116740409595167,
+  "caveat": "Exploratory test of one gated packet per rollout, no multiplicity-adjusted statistical test."
+}

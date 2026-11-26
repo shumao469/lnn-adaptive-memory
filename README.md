@@ -17,8 +17,9 @@ paired double-integrator simulation.
 This component supports the broader Liquid AI research project. It is a
 continuous-time-inspired residual observer and should not be described as an
 implementation of LTC or CfC. The short demonstration below is an engineering
-smoke run. It does not reproduce the full 166,848-rollout study, Reacher,
-flight-log replay, manuscript figures, or protected-holdout evaluation.
+smoke run. The quick demonstration does not reproduce the full 166,848-rollout study,
+Reacher training, flight-log replay, manuscript figures, or protected-holdout
+evaluation. A separate Reacher statistical reanalysis is provided below.
 
 ## Setup
 
@@ -87,6 +88,28 @@ compare matched scenarios. A dynamic time constant or adaptive gain does not
 by itself establish a closed-loop advantage or identify the source of noise.
 Use independent scenarios, report uncertainty, and describe the actual
 protocol and model checkpoint when reporting results.
+
+## Memory-write and Reacher gate experiments
+
+The [experiment package](experiments/memory_write_20261125/README.md) adds
+single-write and sequential gating code, a double-integrator training bundle
+with frozen observer checkpoints, and a standalone reanalysis of paired
+simulated Reacher results. Run the smoke test and restore the released data:
+
+```bash
+cd experiments/memory_write_20261125
+python -m pip install numpy scipy torch
+python restore_data.py
+python train_bundle/smoke_test.py
+python verify_results.py
+```
+
+The Reacher intervals are exploratory post hoc corrections for 48 comparisons.
+The simulation uses a known post-switch write budget and horizon; the
+independent reanalysis is included, while complete Reacher retraining still
+requires the original simulator and observer dependencies.
+
+![Simulated Reacher gate comparisons](experiments/memory_write_20261125/assets/reacher_gate_results.png)
 
 ## License and citation
 

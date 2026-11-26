@@ -1,0 +1,60 @@
+{
+  "status": "complete",
+  "test_metrics_by_strength": {
+    "0.5": {
+      "tracking_rmse_delta": {
+        "n_rows": 288,
+        "mae": 0.0002619891194698956,
+        "direction_accuracy": 0.5555555555555556,
+        "constant_direction_accuracy": 0.6423611111111112,
+        "spearman": -0.18760122413384298
+      },
+      "control_integral_delta": {
+        "n_rows": 288,
+        "mae": 0.0023480916959399056,
+        "direction_accuracy": 0.4826388888888889,
+        "constant_direction_accuracy": 0.5138888888888888,
+        "spearman": -0.3190233051613759
+      }
+    },
+    "1.0": {
+      "tracking_rmse_delta": {
+        "n_rows": 288,
+        "mae": 0.0003341842685588403,
+        "direction_accuracy": 0.4548611111111111,
+        "constant_direction_accuracy": 0.5555555555555556,
+        "spearman": -0.2812237520546239
+      },
+      "control_integral_delta": {
+        "n_rows": 288,
+        "mae": 0.004375106088331245,
+        "direction_accuracy": 0.5173611111111112,
+        "constant_direction_accuracy": 0.5486111111111112,
+        "spearman": -0.18006693351659175
+      }
+    },
+    "1.5": {
+      "tracking_rmse_delta": {
+        "n_rows": 288,
+        "mae": 0.0003920098951773902,
+        "direction_accuracy": 0.4791666666666667,
+        "constant_direction_accuracy": 0.4895833333333333,
+        "spearman": -0.10395341780901744
+      },
+      "control_integral_delta": {
+        "n_rows": 288,
+        "mae": 0.005157747407290707,
+        "direction_accuracy": 0.5868055555555556,
+        "constant_direction_accuracy": 0.5729166666666666,
+        "spearman": 0.03927395922500995
+      }
+    }
+  },
+  "held_out_strength_1_5": true,
+  "single_packet_utility_only": true,
+  "best_epoch": 1,
+  "threshold": 4.544400722034819e-05,
+  "n_train": 2304,
+  "n_validation": 576,
+  "n_test": 864
+}

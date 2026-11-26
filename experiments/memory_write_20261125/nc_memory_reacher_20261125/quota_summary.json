@@ -1,0 +1,726 @@
+{
+  "status": "completed",
+  "conditions": {
+    "q_up_0ms": {
+      "age": {
+        "n_rollouts": 72,
+        "write_rate": 0.5,
+        "failures": 0,
+        "forced_phase_write_fraction": 0.0
+      },
+      "innovation": {
+        "n_rollouts": 72,
+        "write_rate": 0.5,
+        "failures": 0,
+        "forced_phase_write_fraction": 0.0
+      },
+      "learned": {
+        "n_rollouts": 72,
+        "write_rate": 0.5,
+        "failures": 0,
+        "forced_phase_write_fraction": 0.7388888888888889
+      },
+      "learned_minus_age": {
+        "mean": [
+          -2.912015347870165e-05,
+          0.0003063462054550887,
+          0.0
+        ],
+        "interval95": [
+          [
+            -9.499500070711462e-05,
+            -0.029164769047671412,
+            0.0
+          ],
+          [
+            3.708256233948912e-05,
+            0.030879665549083772,
+            0.0
+          ]
+        ],
+        "units": [
+          "m tracking RMSE",
+          "squared torque integral",
+          "saturation fraction"
+        ],
+        "interval": "descriptive crossed bootstrap scene and seed, 5000 draws"
+      },
+      "learned_minus_innovation": {
+        "mean": [
+          -2.5296806752097187e-05,
+          -0.09848661783247013,
+          0.0
+        ],
+        "interval95": [
+          [
+            -0.00012973999968325455,
+            -0.14420199277743764,
+            0.0
+          ],
+          [
+            7.968741413015501e-05,
+            -0.05309178459609316,
+            0.0
+          ]
+        ],
+        "units": [
+          "m tracking RMSE",
+          "squared torque integral",
+          "saturation fraction"
+        ],
+        "interval": "descriptive crossed bootstrap scene and seed, 5000 draws"
+      },
+      "learned_minus_keep": {
+        "mean": [
+          -8.703982289167314e-05,
+          0.06788689596926548,
+          0.0
+        ],
+        "interval95": [
+          [
+            -0.0001574307322717083,
+            0.04063426778351189,
+            0.0
+          ],
+          [
+            -1.5142781697415397e-05,
+            0.0951112356789758,
+            0.0
+          ]
+        ],
+        "units": [
+          "m tracking RMSE",
+          "squared torque integral",
+          "saturation fraction"
+        ],
+        "interval": "descriptive crossed bootstrap scene and seed, 5000 draws"
+      },
+      "learned_minus_huber_kf": {
+        "mean": [
+          9.846779556744432e-05,
+          -0.061277010548992865,
+          0.0
+        ],
+        "interval95": [
+          [
+            3.536054198977783e-05,
+            -0.08995249723377755,
+            0.0
+          ],
+          [
+            0.00016279823788045692,
+            -0.03270285774445316,
+            0.0
+          ]
+        ],
+        "units": [
+          "m tracking RMSE",
+          "squared torque integral",
+          "saturation fraction"
+        ],
+        "interval": "descriptive crossed bootstrap scene and seed, 5000 draws"
+      }
+    },
+    "q_up_40ms": {
+      "age": {
+        "n_rollouts": 72,
+        "write_rate": 0.5,
+        "failures": 0,
+        "forced_phase_write_fraction": 0.15925925925925927
+      },
+      "innovation": {
+        "n_rollouts": 72,
+        "write_rate": 0.5,
+        "failures": 0,
+        "forced_phase_write_fraction": 0.0
+      },
+      "learned": {
+        "n_rollouts": 72,
+        "write_rate": 0.5,
+        "failures": 0,
+        "forced_phase_write_fraction": 0.7379629629629629
+      },
+      "learned_minus_age": {
+        "mean": [
+          -4.8916536828073426e-05,
+          -0.0643587888947144,
+          0.0
+        ],
+        "interval95": [
+          [
+            -0.00018385131636505732,
+            -0.1037175545211599,
+            0.0
+          ],
+          [
+            7.977880891822516e-05,
+            -0.02797952853429255,
+            0.0
+          ]
+        ],
+        "units": [
+          "m tracking RMSE",
+          "squared torque integral",
+          "saturation fraction"
+        ],
+        "interval": "descriptive crossed bootstrap scene and seed, 5000 draws"
+      },
+      "learned_minus_innovation": {
+        "mean": [
+          3.932183348963656e-05,
+          -0.09945570471284243,
+          0.0
+        ],
+        "interval95": [
+          [
+            -4.827584463707195e-05,
+            -0.13672357981288993,
+            0.0
+          ],
+          [
+            0.00013107474526008865,
+            -0.06452163260800499,
+            0.0
+          ]
+        ],
+        "units": [
+          "m tracking RMSE",
+          "squared torque integral",
+          "saturation fraction"
+        ],
+        "interval": "descriptive crossed bootstrap scene and seed, 5000 draws"
+      },
+      "learned_minus_keep": {
+        "mean": [
+          -3.4917760490209825e-05,
+          0.0817573323759554,
+          0.0
+        ],
+        "interval95": [
+          [
+            -8.991275821854436e-05,
+            0.06151345442357485,
+            0.0
+          ],
+          [
+            2.2513742720490083e-05,
+            0.10054133088421129,
+            0.0
+          ]
+        ],
+        "units": [
+          "m tracking RMSE",
+          "squared torque integral",
+          "saturation fraction"
+        ],
+        "interval": "descriptive crossed bootstrap scene and seed, 5000 draws"
+      },
+      "learned_minus_huber_kf": {
+        "mean": [
+          0.0001255128247587334,
+          -0.09418020670475581,
+          0.0
+        ],
+        "interval95": [
+          [
+            6.52121616431422e-05,
+            -0.11624223094626597,
+            0.0
+          ],
+          [
+            0.00018203869254486784,
+            -0.0740665838621458,
+            0.0
+          ]
+        ],
+        "units": [
+          "m tracking RMSE",
+          "squared torque integral",
+          "saturation fraction"
+        ],
+        "interval": "descriptive crossed bootstrap scene and seed, 5000 draws"
+      }
+    },
+    "q_up_80ms": {
+      "age": {
+        "n_rollouts": 72,
+        "write_rate": 0.5,
+        "failures": 0,
+        "forced_phase_write_fraction": 1.0
+      },
+      "innovation": {
+        "n_rollouts": 72,
+        "write_rate": 0.5,
+        "failures": 0,
+        "forced_phase_write_fraction": 0.0
+      },
+      "learned": {
+        "n_rollouts": 72,
+        "write_rate": 0.5,
+        "failures": 0,
+        "forced_phase_write_fraction": 0.7564814814814815
+      },
+      "learned_minus_age": {
+        "mean": [
+          6.255271864025582e-05,
+          -0.0170241277465468,
+          0.0
+        ],
+        "interval95": [
+          [
+            4.858570310577024e-06,
+            -0.034632823362175644,
+            0.0
+          ],
+          [
+            0.00012022558976375984,
+            -0.000753785144616109,
+            0.0
+          ]
+        ],
+        "units": [
+          "m tracking RMSE",
+          "squared torque integral",
+          "saturation fraction"
+        ],
+        "interval": "descriptive crossed bootstrap scene and seed, 5000 draws"
+      },
+      "learned_minus_innovation": {
+        "mean": [
+          5.986333856812307e-05,
+          -0.10595208769828046,
+          0.0
+        ],
+        "interval95": [
+          [
+            -2.0251240658764933e-05,
+            -0.14347894617520515,
+            0.0
+          ],
+          [
+            0.0001344218911019914,
+            -0.07091535322736275,
+            0.0
+          ]
+        ],
+        "units": [
+          "m tracking RMSE",
+          "squared torque integral",
+          "saturation fraction"
+        ],
+        "interval": "descriptive crossed bootstrap scene and seed, 5000 draws"
+      },
+      "learned_minus_keep": {
+        "mean": [
+          -1.9238481668651244e-05,
+          0.07905586474794968,
+          0.0
+        ],
+        "interval95": [
+          [
+            -6.318389368725677e-05,
+            0.058231010317445465,
+            0.0
+          ],
+          [
+            2.7207385043148423e-05,
+            0.09986356228844902,
+            0.0
+          ]
+        ],
+        "units": [
+          "m tracking RMSE",
+          "squared torque integral",
+          "saturation fraction"
+        ],
+        "interval": "descriptive crossed bootstrap scene and seed, 5000 draws"
+      },
+      "learned_minus_huber_kf": {
+        "mean": [
+          0.00011528048759745661,
+          -0.1190252536722002,
+          0.0
+        ],
+        "interval95": [
+          [
+            6.494325266135746e-05,
+            -0.1460543243522527,
+            0.0
+          ],
+          [
+            0.0001629884016520816,
+            -0.0923061576602166,
+            0.0
+          ]
+        ],
+        "units": [
+          "m tracking RMSE",
+          "squared torque integral",
+          "saturation fraction"
+        ],
+        "interval": "descriptive crossed bootstrap scene and seed, 5000 draws"
+      }
+    },
+    "r_up_0ms": {
+      "age": {
+        "n_rollouts": 72,
+        "write_rate": 0.5,
+        "failures": 0,
+        "forced_phase_write_fraction": 0.0
+      },
+      "innovation": {
+        "n_rollouts": 72,
+        "write_rate": 0.5,
+        "failures": 0,
+        "forced_phase_write_fraction": 0.8361111111111111
+      },
+      "learned": {
+        "n_rollouts": 72,
+        "write_rate": 0.5,
+        "failures": 0,
+        "forced_phase_write_fraction": 0.0
+      },
+      "learned_minus_age": {
+        "mean": [
+          2.2944786260901997e-05,
+          -0.045818512439210424,
+          0.0
+        ],
+        "interval95": [
+          [
+            -5.6848663909279395e-05,
+            -0.07124318473637226,
+            0.0
+          ],
+          [
+            9.56483631014404e-05,
+            -0.020455159380978704,
+            0.0
+          ]
+        ],
+        "units": [
+          "m tracking RMSE",
+          "squared torque integral",
+          "saturation fraction"
+        ],
+        "interval": "descriptive crossed bootstrap scene and seed, 5000 draws"
+      },
+      "learned_minus_innovation": {
+        "mean": [
+          7.815164884979111e-05,
+          -0.11961952016067359,
+          0.0
+        ],
+        "interval95": [
+          [
+            -6.386735318823733e-05,
+            -0.16979334405335403,
+            0.0
+          ],
+          [
+            0.00021911941237589123,
+            -0.06861080663468748,
+            0.0
+          ]
+        ],
+        "units": [
+          "m tracking RMSE",
+          "squared torque integral",
+          "saturation fraction"
+        ],
+        "interval": "descriptive crossed bootstrap scene and seed, 5000 draws"
+      },
+      "learned_minus_keep": {
+        "mean": [
+          4.149824422209635e-05,
+          0.33833943547684264,
+          0.0
+        ],
+        "interval95": [
+          [
+            -4.248011596209718e-05,
+            0.2989189014585485,
+            0.0
+          ],
+          [
+            0.00012143772403592918,
+            0.3743361207845054,
+            0.0
+          ]
+        ],
+        "units": [
+          "m tracking RMSE",
+          "squared torque integral",
+          "saturation fraction"
+        ],
+        "interval": "descriptive crossed bootstrap scene and seed, 5000 draws"
+      },
+      "learned_minus_huber_kf": {
+        "mean": [
+          0.00010662554556012558,
+          -0.38924365599601835,
+          0.0
+        ],
+        "interval95": [
+          [
+            2.1595766138358086e-05,
+            -0.42697485279940495,
+            0.0
+          ],
+          [
+            0.00019545077720098134,
+            -0.3499389243387784,
+            0.0
+          ]
+        ],
+        "units": [
+          "m tracking RMSE",
+          "squared torque integral",
+          "saturation fraction"
+        ],
+        "interval": "descriptive crossed bootstrap scene and seed, 5000 draws"
+      }
+    },
+    "r_up_40ms": {
+      "age": {
+        "n_rollouts": 72,
+        "write_rate": 0.5,
+        "failures": 0,
+        "forced_phase_write_fraction": 0.15925925925925927
+      },
+      "innovation": {
+        "n_rollouts": 72,
+        "write_rate": 0.5,
+        "failures": 0,
+        "forced_phase_write_fraction": 0.8111111111111111
+      },
+      "learned": {
+        "n_rollouts": 72,
+        "write_rate": 0.5,
+        "failures": 0,
+        "forced_phase_write_fraction": 0.0
+      },
+      "learned_minus_age": {
+        "mean": [
+          -0.00028265616227701154,
+          -0.3166338474629724,
+          0.0
+        ],
+        "interval95": [
+          [
+            -0.0004987749307216022,
+            -0.36805122522160777,
+            0.0
+          ],
+          [
+            -7.949423539884845e-05,
+            -0.26223801262731117,
+            0.0
+          ]
+        ],
+        "units": [
+          "m tracking RMSE",
+          "squared torque integral",
+          "saturation fraction"
+        ],
+        "interval": "descriptive crossed bootstrap scene and seed, 5000 draws"
+      },
+      "learned_minus_innovation": {
+        "mean": [
+          2.3198052710533235e-05,
+          -0.1310714072965344,
+          0.0
+        ],
+        "interval95": [
+          [
+            -8.945289255934109e-05,
+            -0.17722580444860422,
+            0.0
+          ],
+          [
+            0.0001331223281634066,
+            -0.08675915150662081,
+            0.0
+          ]
+        ],
+        "units": [
+          "m tracking RMSE",
+          "squared torque integral",
+          "saturation fraction"
+        ],
+        "interval": "descriptive crossed bootstrap scene and seed, 5000 draws"
+      },
+      "learned_minus_keep": {
+        "mean": [
+          1.0133424142605514e-05,
+          0.4362586350957588,
+          0.0
+        ],
+        "interval95": [
+          [
+            -4.764646713017757e-05,
+            0.39906809953935,
+            0.0
+          ],
+          [
+            6.897901306727845e-05,
+            0.47082074394963874,
+            0.0
+          ]
+        ],
+        "units": [
+          "m tracking RMSE",
+          "squared torque integral",
+          "saturation fraction"
+        ],
+        "interval": "descriptive crossed bootstrap scene and seed, 5000 draws"
+      },
+      "learned_minus_huber_kf": {
+        "mean": [
+          4.7583212075271706e-05,
+          -0.5079323943548701,
+          0.0
+        ],
+        "interval95": [
+          [
+            -2.295091003137835e-05,
+            -0.5375587586779703,
+            0.0
+          ],
+          [
+            0.00011549510019862149,
+            -0.4782715753430682,
+            0.0
+          ]
+        ],
+        "units": [
+          "m tracking RMSE",
+          "squared torque integral",
+          "saturation fraction"
+        ],
+        "interval": "descriptive crossed bootstrap scene and seed, 5000 draws"
+      }
+    },
+    "r_up_80ms": {
+      "age": {
+        "n_rollouts": 72,
+        "write_rate": 0.5,
+        "failures": 0,
+        "forced_phase_write_fraction": 1.0
+      },
+      "innovation": {
+        "n_rollouts": 72,
+        "write_rate": 0.5,
+        "failures": 0,
+        "forced_phase_write_fraction": 0.7814814814814814
+      },
+      "learned": {
+        "n_rollouts": 72,
+        "write_rate": 0.5,
+        "failures": 0,
+        "forced_phase_write_fraction": 0.0
+      },
+      "learned_minus_age": {
+        "mean": [
+          3.808375044280535e-05,
+          -0.038160130984629365,
+          0.0
+        ],
+        "interval95": [
+          [
+            -4.410259952847992e-05,
+            -0.07325339802867811,
+            0.0
+          ],
+          [
+            0.00011890222960934034,
+            -0.004247220013185511,
+            0.0
+          ]
+        ],
+        "units": [
+          "m tracking RMSE",
+          "squared torque integral",
+          "saturation fraction"
+        ],
+        "interval": "descriptive crossed bootstrap scene and seed, 5000 draws"
+      },
+      "learned_minus_innovation": {
+        "mean": [
+          1.1631435162121948e-05,
+          -0.17087538995071144,
+          0.0
+        ],
+        "interval95": [
+          [
+            -8.786560374003652e-05,
+            -0.21401680805145942,
+            0.0
+          ],
+          [
+            0.0001205762681208811,
+            -0.12750663973505816,
+            0.0
+          ]
+        ],
+        "units": [
+          "m tracking RMSE",
+          "squared torque integral",
+          "saturation fraction"
+        ],
+        "interval": "descriptive crossed bootstrap scene and seed, 5000 draws"
+      },
+      "learned_minus_keep": {
+        "mean": [
+          1.9522775272938885e-05,
+          0.475669132844366,
+          0.0
+        ],
+        "interval95": [
+          [
+            -4.766643837903558e-05,
+            0.4416928046091922,
+            0.0
+          ],
+          [
+            8.294884054969116e-05,
+            0.5106287482725149,
+            0.0
+          ]
+        ],
+        "units": [
+          "m tracking RMSE",
+          "squared torque integral",
+          "saturation fraction"
+        ],
+        "interval": "descriptive crossed bootstrap scene and seed, 5000 draws"
+      },
+      "learned_minus_huber_kf": {
+        "mean": [
+          3.7540092196917875e-05,
+          -0.5997839677147917,
+          0.0
+        ],
+        "interval95": [
+          [
+            -2.358383826568831e-05,
+            -0.6264396062087655,
+            0.0
+          ],
+          [
+            9.72681978284236e-05,
+            -0.5740057454132367,
+            0.0
+          ]
+        ],
+        "units": [
+          "m tracking RMSE",
+          "squared torque integral",
+          "saturation fraction"
+        ],
+        "interval": "descriptive crossed bootstrap scene and seed, 5000 draws"
+      }
+    }
+  },
+  "forced_phase_definition": "Share of writes occurring after the remaining quota equalled the remaining events. This includes writes the unconstrained gate could also have selected."
+}

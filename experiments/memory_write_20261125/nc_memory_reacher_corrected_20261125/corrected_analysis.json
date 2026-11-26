@@ -1,0 +1,977 @@
+{
+  "scope": "Post hoc exploratory reanalysis. The 48-test family was declared after the data had been observed. Do not call this preregistered or confirmatory.",
+  "family": "2 noise conditions x 3 delays x 4 learned-minus-comparator contrasts (age, innovation, keep, Huber Kalman) x 2 endpoints (tracking RMSE, squared-torque integral) = 48; total 95% familywise error control targeted by Bonferroni adjusted crossed-bootstrap percentile intervals.",
+  "method": "100000 crossed bootstrap draws resample the 24 shared scenario IDs and 3 fitted observer seeds as clusters. The same independent Huber rollout for a scenario is repeated across seeds and resampled by scenario. Bootstrap percentile intervals are approximate, particularly with only 3 fitted seeds sharing training data.",
+  "confidence_level_per_interval": 0.9989583333333333,
+  "draws": 100000,
+  "random_seed": 9814951,
+  "source_sha256": {
+    "quota_evaluation.jsonl": "66ebde1dbd29cd190fa3d86dab370e875d7004e020952adc00bb3e24dca1145a",
+    "evaluation.jsonl": "aae5782b59913dcde30d1897d9af1ef1fa9911f877a5fa80e3d92b9119060bee",
+    "robust.jsonl": "8ba573b390023c84dd52ab98c26a7aca8ddb23264acd34048e3331595b48532c",
+    "quota_protocol.json": "6e7309e078d5d060dbde1a6b67d955eef39bd3a809b8da50700ab40e8cee813f"
+  },
+  "physical_scope": "Simulated Reacher, known fixed 90-event post-switch horizon, 45 writes. Descriptive observed forced-phase write proportions in original quota_summary.json.",
+  "contrasts": [
+    {
+      "regime": "q_up",
+      "delay_ms": 0,
+      "comparator": "age",
+      "metric": "tracking_rmse",
+      "estimate": -2.9120153478701637e-05,
+      "pointwise_95": [
+        -9.59078910982634e-05,
+        3.6526765505751394e-05
+      ],
+      "bonferroni_familywise_95": [
+        -0.00014065375586944822,
+        8.196155109741359e-05
+      ],
+      "excludes_zero": false,
+      "unit": "m",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "q_up",
+      "delay_ms": 0,
+      "comparator": "age",
+      "metric": "control_energy",
+      "estimate": 0.0003063462054550887,
+      "pointwise_95": [
+        -0.02877477456956034,
+        0.030665555323442003
+      ],
+      "bonferroni_familywise_95": [
+        -0.046853881923467885,
+        0.05248300825971796
+      ],
+      "excludes_zero": false,
+      "unit": "squared torque integral",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "q_up",
+      "delay_ms": 0,
+      "comparator": "innovation",
+      "metric": "tracking_rmse",
+      "estimate": -2.5296806752097194e-05,
+      "pointwise_95": [
+        -0.00013020654838625254,
+        8.020948819768004e-05
+      ],
+      "bonferroni_familywise_95": [
+        -0.0002007271673114386,
+        0.00015135991140026453
+      ],
+      "excludes_zero": false,
+      "unit": "m",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "q_up",
+      "delay_ms": 0,
+      "comparator": "innovation",
+      "metric": "control_energy",
+      "estimate": -0.09848661783247012,
+      "pointwise_95": [
+        -0.14460450990282597,
+        -0.05325272564645798
+      ],
+      "bonferroni_familywise_95": [
+        -0.17568034938099644,
+        -0.023696604342504608
+      ],
+      "excludes_zero": true,
+      "unit": "squared torque integral",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "q_up",
+      "delay_ms": 0,
+      "comparator": "keep",
+      "metric": "tracking_rmse",
+      "estimate": -8.703982289167317e-05,
+      "pointwise_95": [
+        -0.0001595744903421582,
+        -1.6199478346720678e-05
+      ],
+      "bonferroni_familywise_95": [
+        -0.00020744618484402094,
+        3.24164854116141e-05
+      ],
+      "excludes_zero": false,
+      "unit": "m",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "q_up",
+      "delay_ms": 0,
+      "comparator": "keep",
+      "metric": "control_energy",
+      "estimate": 0.06788689596926546,
+      "pointwise_95": [
+        0.04058149581993501,
+        0.09505485319320718
+      ],
+      "bonferroni_familywise_95": [
+        0.02164558570574684,
+        0.11387310134920971
+      ],
+      "excludes_zero": true,
+      "unit": "squared torque integral",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "q_up",
+      "delay_ms": 0,
+      "comparator": "huber_kf",
+      "metric": "tracking_rmse",
+      "estimate": 9.846779556744434e-05,
+      "pointwise_95": [
+        3.253601654603143e-05,
+        0.00016573262251548575
+      ],
+      "bonferroni_familywise_95": [
+        -9.117726117002775e-06,
+        0.00021521359437363735
+      ],
+      "excludes_zero": false,
+      "unit": "m",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "q_up",
+      "delay_ms": 0,
+      "comparator": "huber_kf",
+      "metric": "control_energy",
+      "estimate": -0.06127701054899285,
+      "pointwise_95": [
+        -0.08994670967693735,
+        -0.03239925242964534
+      ],
+      "bonferroni_familywise_95": [
+        -0.10934489137768694,
+        -0.013452184097311689
+      ],
+      "excludes_zero": true,
+      "unit": "squared torque integral",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "q_up",
+      "delay_ms": 40,
+      "comparator": "age",
+      "metric": "tracking_rmse",
+      "estimate": -4.89165368280734e-05,
+      "pointwise_95": [
+        -0.00018515484496439856,
+        7.973599735373897e-05
+      ],
+      "bonferroni_familywise_95": [
+        -0.0002861864443377358,
+        0.00015781167355981298
+      ],
+      "excludes_zero": false,
+      "unit": "m",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "q_up",
+      "delay_ms": 40,
+      "comparator": "age",
+      "metric": "control_energy",
+      "estimate": -0.06435878889471441,
+      "pointwise_95": [
+        -0.1035759334264048,
+        -0.028036861848868676
+      ],
+      "bonferroni_familywise_95": [
+        -0.1333539120286809,
+        -0.006307773918817169
+      ],
+      "excludes_zero": true,
+      "unit": "squared torque integral",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "q_up",
+      "delay_ms": 40,
+      "comparator": "innovation",
+      "metric": "tracking_rmse",
+      "estimate": 3.932183348963657e-05,
+      "pointwise_95": [
+        -4.924023598707832e-05,
+        0.00012870309500910627
+      ],
+      "bonferroni_familywise_95": [
+        -0.00010429058136452291,
+        0.00018851730492177744
+      ],
+      "excludes_zero": false,
+      "unit": "m",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "q_up",
+      "delay_ms": 40,
+      "comparator": "innovation",
+      "metric": "control_energy",
+      "estimate": -0.09945570471284243,
+      "pointwise_95": [
+        -0.13551554522684509,
+        -0.06317857822043581
+      ],
+      "bonferroni_familywise_95": [
+        -0.15848414814226497,
+        -0.039305781384355164
+      ],
+      "excludes_zero": true,
+      "unit": "squared torque integral",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "q_up",
+      "delay_ms": 40,
+      "comparator": "keep",
+      "metric": "tracking_rmse",
+      "estimate": -3.491776049020982e-05,
+      "pointwise_95": [
+        -9.043390609446603e-05,
+        2.1048424345481577e-05
+      ],
+      "bonferroni_familywise_95": [
+        -0.00012719476184601427,
+        5.842194453989484e-05
+      ],
+      "excludes_zero": false,
+      "unit": "m",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "q_up",
+      "delay_ms": 40,
+      "comparator": "keep",
+      "metric": "control_energy",
+      "estimate": 0.08175733237595538,
+      "pointwise_95": [
+        0.06171363477836434,
+        0.10070993560544414
+      ],
+      "bonferroni_familywise_95": [
+        0.04688780033907442,
+        0.11264055219908388
+      ],
+      "excludes_zero": true,
+      "unit": "squared torque integral",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "q_up",
+      "delay_ms": 40,
+      "comparator": "huber_kf",
+      "metric": "tracking_rmse",
+      "estimate": 0.0001255128247587334,
+      "pointwise_95": [
+        6.66443193345777e-05,
+        0.00018397024069364526
+      ],
+      "bonferroni_familywise_95": [
+        2.8890142563570777e-05,
+        0.0002235265246245085
+      ],
+      "excludes_zero": true,
+      "unit": "m",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "q_up",
+      "delay_ms": 40,
+      "comparator": "huber_kf",
+      "metric": "control_energy",
+      "estimate": -0.09418020670475584,
+      "pointwise_95": [
+        -0.11613473760653595,
+        -0.07269503104395693
+      ],
+      "bonferroni_familywise_95": [
+        -0.1314743140342857,
+        -0.05910591877705352
+      ],
+      "excludes_zero": true,
+      "unit": "squared torque integral",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "q_up",
+      "delay_ms": 80,
+      "comparator": "age",
+      "metric": "tracking_rmse",
+      "estimate": 6.255271864025582e-05,
+      "pointwise_95": [
+        7.693434546544289e-06,
+        0.00012066455283226496
+      ],
+      "bonferroni_familywise_95": [
+        -2.777514724031219e-05,
+        0.00016170227359807936
+      ],
+      "excludes_zero": false,
+      "unit": "m",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "q_up",
+      "delay_ms": 80,
+      "comparator": "age",
+      "metric": "control_energy",
+      "estimate": -0.0170241277465468,
+      "pointwise_95": [
+        -0.03435620759617242,
+        -0.0004545911725927854
+      ],
+      "bonferroni_familywise_95": [
+        -0.04684025680275922,
+        0.009900417474025276
+      ],
+      "excludes_zero": false,
+      "unit": "squared torque integral",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "q_up",
+      "delay_ms": 80,
+      "comparator": "innovation",
+      "metric": "tracking_rmse",
+      "estimate": 5.986333856812308e-05,
+      "pointwise_95": [
+        -1.674943965480397e-05,
+        0.00013520829021948104
+      ],
+      "bonferroni_familywise_95": [
+        -6.968753693897158e-05,
+        0.00018355613729839263
+      ],
+      "excludes_zero": false,
+      "unit": "m",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "q_up",
+      "delay_ms": 80,
+      "comparator": "innovation",
+      "metric": "control_energy",
+      "estimate": -0.10595208769828045,
+      "pointwise_95": [
+        -0.14305901415671657,
+        -0.06999726796438688
+      ],
+      "bonferroni_familywise_95": [
+        -0.1679199522681507,
+        -0.04743956988044399
+      ],
+      "excludes_zero": true,
+      "unit": "squared torque integral",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "q_up",
+      "delay_ms": 80,
+      "comparator": "keep",
+      "metric": "tracking_rmse",
+      "estimate": -1.9238481668651244e-05,
+      "pointwise_95": [
+        -6.372076332370522e-05,
+        2.7170450558189986e-05
+      ],
+      "bonferroni_familywise_95": [
+        -9.069041500384988e-05,
+        5.922259452659035e-05
+      ],
+      "excludes_zero": false,
+      "unit": "m",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "q_up",
+      "delay_ms": 80,
+      "comparator": "keep",
+      "metric": "control_energy",
+      "estimate": 0.07905586474794966,
+      "pointwise_95": [
+        0.058280449914713026,
+        0.10018392792813983
+      ],
+      "bonferroni_familywise_95": [
+        0.0448030740182301,
+        0.11414659324052409
+      ],
+      "excludes_zero": true,
+      "unit": "squared torque integral",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "q_up",
+      "delay_ms": 80,
+      "comparator": "huber_kf",
+      "metric": "tracking_rmse",
+      "estimate": 0.00011528048759745664,
+      "pointwise_95": [
+        6.592407967996621e-05,
+        0.00016214649151170886
+      ],
+      "bonferroni_familywise_95": [
+        3.259978560980327e-05,
+        0.00019391369010385027
+      ],
+      "excludes_zero": true,
+      "unit": "m",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "q_up",
+      "delay_ms": 80,
+      "comparator": "huber_kf",
+      "metric": "control_energy",
+      "estimate": -0.1190252536722002,
+      "pointwise_95": [
+        -0.1456680081425899,
+        -0.09301992552539808
+      ],
+      "bonferroni_familywise_95": [
+        -0.16333556209823646,
+        -0.075721521662142
+      ],
+      "excludes_zero": true,
+      "unit": "squared torque integral",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "r_up",
+      "delay_ms": 0,
+      "comparator": "age",
+      "metric": "tracking_rmse",
+      "estimate": 2.2944786260901997e-05,
+      "pointwise_95": [
+        -5.878033366429262e-05,
+        9.750929494055297e-05
+      ],
+      "bonferroni_familywise_95": [
+        -0.00012225048567436237,
+        0.00014194222592353082
+      ],
+      "excludes_zero": false,
+      "unit": "m",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "r_up",
+      "delay_ms": 0,
+      "comparator": "age",
+      "metric": "control_energy",
+      "estimate": -0.045818512439210424,
+      "pointwise_95": [
+        -0.07116729381369187,
+        -0.021023515035367733
+      ],
+      "bonferroni_familywise_95": [
+        -0.08895118941642577,
+        -0.004909187544191702
+      ],
+      "excludes_zero": true,
+      "unit": "squared torque integral",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "r_up",
+      "delay_ms": 0,
+      "comparator": "innovation",
+      "metric": "tracking_rmse",
+      "estimate": 7.815164884979112e-05,
+      "pointwise_95": [
+        -6.204293585423743e-05,
+        0.00021909339522779216
+      ],
+      "bonferroni_familywise_95": [
+        -0.00015864260213959303,
+        0.00031742949281059386
+      ],
+      "excludes_zero": false,
+      "unit": "m",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "r_up",
+      "delay_ms": 0,
+      "comparator": "innovation",
+      "metric": "control_energy",
+      "estimate": -0.11961952016067363,
+      "pointwise_95": [
+        -0.1711749744323152,
+        -0.06870455432381799
+      ],
+      "bonferroni_familywise_95": [
+        -0.20576400613387066,
+        -0.036423141334029664
+      ],
+      "excludes_zero": true,
+      "unit": "squared torque integral",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "r_up",
+      "delay_ms": 0,
+      "comparator": "keep",
+      "metric": "tracking_rmse",
+      "estimate": 4.149824422209635e-05,
+      "pointwise_95": [
+        -4.28750161677005e-05,
+        0.0001220895781993452
+      ],
+      "bonferroni_familywise_95": [
+        -0.00010366815575531896,
+        0.00017291392729198911
+      ],
+      "excludes_zero": false,
+      "unit": "m",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "r_up",
+      "delay_ms": 0,
+      "comparator": "keep",
+      "metric": "control_energy",
+      "estimate": 0.33833943547684253,
+      "pointwise_95": [
+        0.3008028860500413,
+        0.3741825394396685
+      ],
+      "bonferroni_familywise_95": [
+        0.27362347383345736,
+        0.39580408295792624
+      ],
+      "excludes_zero": true,
+      "unit": "squared torque integral",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "r_up",
+      "delay_ms": 0,
+      "comparator": "huber_kf",
+      "metric": "tracking_rmse",
+      "estimate": 0.00010662554556012555,
+      "pointwise_95": [
+        2.2541363548563954e-05,
+        0.00019368323190879365
+      ],
+      "bonferroni_familywise_95": [
+        -3.3812334117802375e-05,
+        0.0002547692275219241
+      ],
+      "excludes_zero": false,
+      "unit": "m",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "r_up",
+      "delay_ms": 0,
+      "comparator": "huber_kf",
+      "metric": "control_energy",
+      "estimate": -0.3892436559960183,
+      "pointwise_95": [
+        -0.427666478643399,
+        -0.3491733428996073
+      ],
+      "bonferroni_familywise_95": [
+        -0.4519088270652182,
+        -0.321608084506408
+      ],
+      "excludes_zero": true,
+      "unit": "squared torque integral",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "r_up",
+      "delay_ms": 40,
+      "comparator": "age",
+      "metric": "tracking_rmse",
+      "estimate": -0.00028265616227701154,
+      "pointwise_95": [
+        -0.0004931147945944031,
+        -7.980703280832705e-05
+      ],
+      "bonferroni_familywise_95": [
+        -0.0006487912760836766,
+        5.213548114333043e-05
+      ],
+      "excludes_zero": false,
+      "unit": "m",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "r_up",
+      "delay_ms": 40,
+      "comparator": "age",
+      "metric": "control_energy",
+      "estimate": -0.3166338474629724,
+      "pointwise_95": [
+        -0.370425637526759,
+        -0.2604937850636891
+      ],
+      "bonferroni_familywise_95": [
+        -0.40321755400531795,
+        -0.22008983466768584
+      ],
+      "excludes_zero": true,
+      "unit": "squared torque integral",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "r_up",
+      "delay_ms": 40,
+      "comparator": "innovation",
+      "metric": "tracking_rmse",
+      "estimate": 2.3198052710533235e-05,
+      "pointwise_95": [
+        -8.613892801781187e-05,
+        0.00013333121087587168
+      ],
+      "bonferroni_familywise_95": [
+        -0.00015913606726138075,
+        0.0002114502997988047
+      ],
+      "excludes_zero": false,
+      "unit": "m",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "r_up",
+      "delay_ms": 40,
+      "comparator": "innovation",
+      "metric": "control_energy",
+      "estimate": -0.13107140729653446,
+      "pointwise_95": [
+        -0.17649300910141438,
+        -0.08572866168248659
+      ],
+      "bonferroni_familywise_95": [
+        -0.20749904348482398,
+        -0.0564012291762343
+      ],
+      "excludes_zero": true,
+      "unit": "squared torque integral",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "r_up",
+      "delay_ms": 40,
+      "comparator": "keep",
+      "metric": "tracking_rmse",
+      "estimate": 1.013342414260551e-05,
+      "pointwise_95": [
+        -4.814860902537951e-05,
+        7.052786865948164e-05
+      ],
+      "bonferroni_familywise_95": [
+        -8.697044541796396e-05,
+        0.00011375649341757244
+      ],
+      "excludes_zero": false,
+      "unit": "m",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "r_up",
+      "delay_ms": 40,
+      "comparator": "keep",
+      "metric": "control_energy",
+      "estimate": 0.4362586350957589,
+      "pointwise_95": [
+        0.39966003285392043,
+        0.4710165901296405
+      ],
+      "bonferroni_familywise_95": [
+        0.37365246473817865,
+        0.49194220123713434
+      ],
+      "excludes_zero": true,
+      "unit": "squared torque integral",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "r_up",
+      "delay_ms": 40,
+      "comparator": "huber_kf",
+      "metric": "tracking_rmse",
+      "estimate": 4.758321207527171e-05,
+      "pointwise_95": [
+        -2.236405619069414e-05,
+        0.00011497066071880233
+      ],
+      "bonferroni_familywise_95": [
+        -7.120377248391459e-05,
+        0.00015777494432858284
+      ],
+      "excludes_zero": false,
+      "unit": "m",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "r_up",
+      "delay_ms": 40,
+      "comparator": "huber_kf",
+      "metric": "control_energy",
+      "estimate": -0.5079323943548703,
+      "pointwise_95": [
+        -0.5377516379142151,
+        -0.4782339665625416
+      ],
+      "bonferroni_familywise_95": [
+        -0.5582598450662802,
+        -0.4590509492465114
+      ],
+      "excludes_zero": true,
+      "unit": "squared torque integral",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "r_up",
+      "delay_ms": 80,
+      "comparator": "age",
+      "metric": "tracking_rmse",
+      "estimate": 3.808375044280536e-05,
+      "pointwise_95": [
+        -4.137707538713067e-05,
+        0.0001194040207224647
+      ],
+      "bonferroni_familywise_95": [
+        -9.313962291455797e-05,
+        0.00017674070960610688
+      ],
+      "excludes_zero": false,
+      "unit": "m",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "r_up",
+      "delay_ms": 80,
+      "comparator": "age",
+      "metric": "control_energy",
+      "estimate": -0.038160130984629365,
+      "pointwise_95": [
+        -0.07310804983334779,
+        -0.003659910612929089
+      ],
+      "bonferroni_familywise_95": [
+        -0.09626925207512102,
+        0.01851106788629537
+      ],
+      "excludes_zero": false,
+      "unit": "squared torque integral",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "r_up",
+      "delay_ms": 80,
+      "comparator": "innovation",
+      "metric": "tracking_rmse",
+      "estimate": 1.1631435162121953e-05,
+      "pointwise_95": [
+        -8.922467888552706e-05,
+        0.00011898921448417365
+      ],
+      "bonferroni_familywise_95": [
+        -0.0001519823856666699,
+        0.00019547613143160408
+      ],
+      "excludes_zero": false,
+      "unit": "m",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "r_up",
+      "delay_ms": 80,
+      "comparator": "innovation",
+      "metric": "control_energy",
+      "estimate": -0.17087538995071141,
+      "pointwise_95": [
+        -0.21302305561112733,
+        -0.12816506489370724
+      ],
+      "bonferroni_familywise_95": [
+        -0.24084127143725573,
+        -0.09915376529272665
+      ],
+      "excludes_zero": true,
+      "unit": "squared torque integral",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "r_up",
+      "delay_ms": 80,
+      "comparator": "keep",
+      "metric": "tracking_rmse",
+      "estimate": 1.9522775272938885e-05,
+      "pointwise_95": [
+        -4.76440212944146e-05,
+        8.401575916421757e-05
+      ],
+      "bonferroni_familywise_95": [
+        -9.684029098937921e-05,
+        0.00012727891877938394
+      ],
+      "excludes_zero": false,
+      "unit": "m",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "r_up",
+      "delay_ms": 80,
+      "comparator": "keep",
+      "metric": "control_energy",
+      "estimate": 0.4756691328443661,
+      "pointwise_95": [
+        0.4409568837933062,
+        0.5096419536673784
+      ],
+      "bonferroni_familywise_95": [
+        0.41756997155681175,
+        0.5309779640388048
+      ],
+      "excludes_zero": true,
+      "unit": "squared torque integral",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "r_up",
+      "delay_ms": 80,
+      "comparator": "huber_kf",
+      "metric": "tracking_rmse",
+      "estimate": 3.754009219691788e-05,
+      "pointwise_95": [
+        -2.349422656728292e-05,
+        9.805238571835063e-05
+      ],
+      "bonferroni_familywise_95": [
+        -6.544245556724068e-05,
+        0.00013962979220178936
+      ],
+      "excludes_zero": false,
+      "unit": "m",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    },
+    {
+      "regime": "r_up",
+      "delay_ms": 80,
+      "comparator": "huber_kf",
+      "metric": "control_energy",
+      "estimate": -0.5997839677147916,
+      "pointwise_95": [
+        -0.6260649867556939,
+        -0.5733025615238488
+      ],
+      "bonferroni_familywise_95": [
+        -0.6439426171716781,
+        -0.555986114801531
+      ],
+      "excludes_zero": true,
+      "unit": "squared torque integral",
+      "scene_count": 24,
+      "fit_count": 3,
+      "rollouts_paired": 72
+    }
+  ]
+}

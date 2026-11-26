@@ -1,0 +1,4037 @@
+{
+  "scope": "Exploratory fixed post-switch quota, identical pre-switch actions, with forced late writes. 16 held-out scenes x 3 fixed observer fits; crossed bootstrap descriptive 95%, unadjusted.",
+  "contrasts": [
+    {
+      "strength": 0.5,
+      "regime": "q_up",
+      "delay_ms": 0,
+      "policy": "learned",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0016584124138381,
+        "descriptive_95": [
+          -0.003170011559103692,
+          -0.0002162343078508893
+        ]
+      },
+      "tracking_rmse_mean": 0.2273081606519404,
+      "control_integral_minus_keep": {
+        "mean": 0.22177960461174853,
+        "descriptive_95": [
+          0.14658135207127984,
+          0.31727576821354736
+        ]
+      },
+      "control_integral_mean": 7.195230638489876,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0009722222222222221,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.2282638888888889,
+        "descriptive_95": [
+          0.19937152777777778,
+          0.25854340277777776
+        ]
+      },
+      "forced_fraction_full_mean": 0.2282638888888889
+    },
+    {
+      "strength": 0.5,
+      "regime": "q_up",
+      "delay_ms": 0,
+      "policy": "age",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0015657041289312869,
+        "descriptive_95": [
+          -0.0027729196823009783,
+          -0.0005022924276894316
+        ]
+      },
+      "tracking_rmse_mean": 0.22740086893684722,
+      "control_integral_minus_keep": {
+        "mean": 0.29455329909803474,
+        "descriptive_95": [
+          0.2036799072491928,
+          0.3985315200575528
+        ]
+      },
+      "control_integral_mean": 7.268004332976162,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.00034722222222222224,
+        "descriptive_95": [
+          0.0,
+          0.0010416666666666667
+        ]
+      },
+      "saturation_fraction_mean": 0.0013194444444444443,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "forced_fraction_full_mean": 0.0
+    },
+    {
+      "strength": 0.5,
+      "regime": "q_up",
+      "delay_ms": 0,
+      "policy": "innovation",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0003229769609895186,
+        "descriptive_95": [
+          -0.0007034741728832256,
+          -2.809526215981655e-05
+        ]
+      },
+      "tracking_rmse_mean": 0.228643596104789,
+      "control_integral_minus_keep": {
+        "mean": 0.04925535580116371,
+        "descriptive_95": [
+          0.026270733913642173,
+          0.07732972154641013
+        ]
+      },
+      "control_integral_mean": 7.02270638967929,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0009722222222222221,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.006041666666666667,
+        "descriptive_95": [
+          0.0,
+          0.013333333333333334
+        ]
+      },
+      "forced_fraction_full_mean": 0.006041666666666667
+    },
+    {
+      "strength": 0.5,
+      "regime": "q_up",
+      "delay_ms": 0,
+      "policy": "random",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0018128687933372158,
+        "descriptive_95": [
+          -0.002696825727649999,
+          -0.0010125293691069452
+        ]
+      },
+      "tracking_rmse_mean": 0.22715370427244128,
+      "control_integral_minus_keep": {
+        "mean": 0.25556642242093325,
+        "descriptive_95": [
+          0.1818273271609888,
+          0.33644468227919905
+        ]
+      },
+      "control_integral_mean": 7.229017456299061,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.00020833333333333335,
+        "descriptive_95": [
+          0.0,
+          0.0008333333333333332
+        ]
+      },
+      "saturation_fraction_mean": 0.0011805555555555556,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.006250000000000001,
+        "descriptive_95": [
+          0.002916666666666667,
+          0.01
+        ]
+      },
+      "forced_fraction_full_mean": 0.006250000000000001
+    },
+    {
+      "strength": 0.5,
+      "regime": "q_up",
+      "delay_ms": 40,
+      "policy": "learned",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.001811820966073037,
+        "descriptive_95": [
+          -0.0031756069415427423,
+          -0.0006455666870933802
+        ]
+      },
+      "tracking_rmse_mean": 0.2382825933883044,
+      "control_integral_minus_keep": {
+        "mean": 0.1936608519346681,
+        "descriptive_95": [
+          0.12873265016411886,
+          0.27548728338826545
+        ]
+      },
+      "control_integral_mean": 7.566703035504763,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.00048611111111111115,
+        "descriptive_95": [
+          0.0,
+          0.0013194444444444445
+        ]
+      },
+      "saturation_fraction_mean": 0.0019444444444444446,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.1342361111111111,
+        "descriptive_95": [
+          0.10715104166666665,
+          0.1604861111111111
+        ]
+      },
+      "forced_fraction_full_mean": 0.1342361111111111
+    },
+    {
+      "strength": 0.5,
+      "regime": "q_up",
+      "delay_ms": 40,
+      "policy": "age",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.001550613993076124,
+        "descriptive_95": [
+          -0.0025795373055320482,
+          -0.0006900575503881323
+        ]
+      },
+      "tracking_rmse_mean": 0.23854380036130132,
+      "control_integral_minus_keep": {
+        "mean": 0.2271562074267349,
+        "descriptive_95": [
+          0.15910104867087316,
+          0.3131271586916379
+        ]
+      },
+      "control_integral_mean": 7.60019839099683,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.000625,
+        "descriptive_95": [
+          0.0,
+          0.001666666666666667
+        ]
+      },
+      "saturation_fraction_mean": 0.0020833333333333333,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.013333333333333334,
+        "descriptive_95": [
+          0.00375,
+          0.026458333333333334
+        ]
+      },
+      "forced_fraction_full_mean": 0.013333333333333334
+    },
+    {
+      "strength": 0.5,
+      "regime": "q_up",
+      "delay_ms": 40,
+      "policy": "innovation",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0002939500972122041,
+        "descriptive_95": [
+          -0.0005999932756521161,
+          -3.2337663137747363e-05
+        ]
+      },
+      "tracking_rmse_mean": 0.23980046425716525,
+      "control_integral_minus_keep": {
+        "mean": 0.04488150777099553,
+        "descriptive_95": [
+          0.023771734702689267,
+          0.07069325068208432
+        ]
+      },
+      "control_integral_mean": 7.417923691341092,
+      "saturation_fraction_minus_keep": {
+        "mean": 6.944444444444444e-05,
+        "descriptive_95": [
+          0.0,
+          0.0004166666666666667
+        ]
+      },
+      "saturation_fraction_mean": 0.0015277777777777779,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.006875,
+        "descriptive_95": [
+          0.0004166666666666667,
+          0.014791666666666667
+        ]
+      },
+      "forced_fraction_full_mean": 0.006875
+    },
+    {
+      "strength": 0.5,
+      "regime": "q_up",
+      "delay_ms": 40,
+      "policy": "random",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.002065443439229614,
+        "descriptive_95": [
+          -0.003228712313219354,
+          -0.0010980891181812903
+        ]
+      },
+      "tracking_rmse_mean": 0.23802897091514785,
+      "control_integral_minus_keep": {
+        "mean": 0.2535902878076139,
+        "descriptive_95": [
+          0.18632115434235208,
+          0.32848780718552034
+        ]
+      },
+      "control_integral_mean": 7.626632471377708,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0009027777777777778,
+        "descriptive_95": [
+          0.0,
+          0.002291666666666667
+        ]
+      },
+      "saturation_fraction_mean": 0.002361111111111111,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.020833333333333332,
+        "descriptive_95": [
+          0.013333333333333334,
+          0.028546875000000024
+        ]
+      },
+      "forced_fraction_full_mean": 0.020833333333333332
+    },
+    {
+      "strength": 0.5,
+      "regime": "q_up",
+      "delay_ms": 80,
+      "policy": "learned",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0010224384800705255,
+        "descriptive_95": [
+          -0.0026438576920916556,
+          0.0003868067655782305
+        ]
+      },
+      "tracking_rmse_mean": 0.2503167597919808,
+      "control_integral_minus_keep": {
+        "mean": 0.22886217804104872,
+        "descriptive_95": [
+          0.1642916871256724,
+          0.30135758904714816
+        ]
+      },
+      "control_integral_mean": 8.017536937581761,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0013194444444444443,
+        "descriptive_95": [
+          0.0,
+          0.0032638888888888887
+        ]
+      },
+      "saturation_fraction_mean": 0.0038888888888888883,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "forced_fraction_full_mean": 0.0
+    },
+    {
+      "strength": 0.5,
+      "regime": "q_up",
+      "delay_ms": 80,
+      "policy": "age",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0015745132306301459,
+        "descriptive_95": [
+          -0.0029201005198742393,
+          -0.0004527850292075351
+        ]
+      },
+      "tracking_rmse_mean": 0.2497646850414212,
+      "control_integral_minus_keep": {
+        "mean": 0.23043139812771543,
+        "descriptive_95": [
+          0.15401372964974272,
+          0.3156744355991136
+        ]
+      },
+      "control_integral_mean": 8.019106157668427,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.00020833333333333335,
+        "descriptive_95": [
+          0.0,
+          0.0006250000000000001
+        ]
+      },
+      "saturation_fraction_mean": 0.0027777777777777783,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.5,
+        "descriptive_95": [
+          0.5,
+          0.5
+        ]
+      },
+      "forced_fraction_full_mean": 0.5
+    },
+    {
+      "strength": 0.5,
+      "regime": "q_up",
+      "delay_ms": 80,
+      "policy": "innovation",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.00021938386807017254,
+        "descriptive_95": [
+          -0.00048507773046307023,
+          -6.477803996461871e-06
+        ]
+      },
+      "tracking_rmse_mean": 0.2511198144039812,
+      "control_integral_minus_keep": {
+        "mean": 0.04266704878616176,
+        "descriptive_95": [
+          0.023019386553639495,
+          0.06756787739026383
+        ]
+      },
+      "control_integral_mean": 7.831341808326875,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0001388888888888889,
+        "descriptive_95": [
+          0.0,
+          0.0005555555555555553
+        ]
+      },
+      "saturation_fraction_mean": 0.0027083333333333334,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.0077083333333333335,
+        "descriptive_95": [
+          0.0004166666666666667,
+          0.015833333333333335
+        ]
+      },
+      "forced_fraction_full_mean": 0.0077083333333333335
+    },
+    {
+      "strength": 0.5,
+      "regime": "q_up",
+      "delay_ms": 80,
+      "policy": "random",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0012762686451608565,
+        "descriptive_95": [
+          -0.0023604054717770244,
+          -0.00039834850119182294
+        ]
+      },
+      "tracking_rmse_mean": 0.25006292962689053,
+      "control_integral_minus_keep": {
+        "mean": 0.24686444771583727,
+        "descriptive_95": [
+          0.1774340256616741,
+          0.3259259263001129
+        ]
+      },
+      "control_integral_mean": 8.03553920725655,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0009722222222222221,
+        "descriptive_95": [
+          0.0,
+          0.002777777777777778
+        ]
+      },
+      "saturation_fraction_mean": 0.0035416666666666665,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.017291666666666667,
+        "descriptive_95": [
+          0.008541666666666668,
+          0.027296875000000023
+        ]
+      },
+      "forced_fraction_full_mean": 0.017291666666666667
+    },
+    {
+      "strength": 0.5,
+      "regime": "r_up",
+      "delay_ms": 0,
+      "policy": "learned",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": 0.0009415355928743065,
+        "descriptive_95": [
+          -0.0006411978712421824,
+          0.0025505134098204557
+        ]
+      },
+      "tracking_rmse_mean": 0.12275299263934174,
+      "control_integral_minus_keep": {
+        "mean": 0.015667194474589627,
+        "descriptive_95": [
+          0.005192063052877176,
+          0.027479896780121266
+        ]
+      },
+      "control_integral_mean": 1.8383414561969296,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.24569444444444444,
+        "descriptive_95": [
+          0.22152256944444443,
+          0.2697239583333333
+        ]
+      },
+      "forced_fraction_full_mean": 0.24569444444444444
+    },
+    {
+      "strength": 0.5,
+      "regime": "r_up",
+      "delay_ms": 0,
+      "policy": "age",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0007081472076999811,
+        "descriptive_95": [
+          -0.0013457285742981629,
+          -0.00012349790773631602
+        ]
+      },
+      "tracking_rmse_mean": 0.12110330983876745,
+      "control_integral_minus_keep": {
+        "mean": 0.028304184600875516,
+        "descriptive_95": [
+          0.015684341910102265,
+          0.043289119496424715
+        ]
+      },
+      "control_integral_mean": 1.8509784463232155,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "forced_fraction_full_mean": 0.0
+    },
+    {
+      "strength": 0.5,
+      "regime": "r_up",
+      "delay_ms": 0,
+      "policy": "innovation",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.00014883018159793428,
+        "descriptive_95": [
+          -0.0006559444158196244,
+          0.0003148618501573007
+        ]
+      },
+      "tracking_rmse_mean": 0.12166262686486952,
+      "control_integral_minus_keep": {
+        "mean": 0.008278915989140339,
+        "descriptive_95": [
+          -0.0012134878438944856,
+          0.01797213249586733
+        ]
+      },
+      "control_integral_mean": 1.8309531777114803,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.06854166666666667,
+        "descriptive_95": [
+          0.05791666666666667,
+          0.08083333333333333
+        ]
+      },
+      "forced_fraction_full_mean": 0.06854166666666667
+    },
+    {
+      "strength": 0.5,
+      "regime": "r_up",
+      "delay_ms": 0,
+      "policy": "random",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0013487724907698777,
+        "descriptive_95": [
+          -0.0021674171189481855,
+          -0.0006799721623521034
+        ]
+      },
+      "tracking_rmse_mean": 0.12046268455569757,
+      "control_integral_minus_keep": {
+        "mean": 0.025050261788766504,
+        "descriptive_95": [
+          0.011551934575709626,
+          0.04063496168132092
+        ]
+      },
+      "control_integral_mean": 1.8477245235111066,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.006250000000000001,
+        "descriptive_95": [
+          0.002916666666666667,
+          0.01
+        ]
+      },
+      "forced_fraction_full_mean": 0.006250000000000001
+    },
+    {
+      "strength": 0.5,
+      "regime": "r_up",
+      "delay_ms": 40,
+      "policy": "learned",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": 0.000582510421010466,
+        "descriptive_95": [
+          -0.0010158015395566689,
+          0.002113692230627248
+        ]
+      },
+      "tracking_rmse_mean": 0.12624581996542664,
+      "control_integral_minus_keep": {
+        "mean": 0.013888945326374058,
+        "descriptive_95": [
+          0.0033120528164736858,
+          0.026101263655792413
+        ]
+      },
+      "control_integral_mean": 1.8881275647047702,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.13159722222222223,
+        "descriptive_95": [
+          0.10659722222222223,
+          0.15722222222222224
+        ]
+      },
+      "forced_fraction_full_mean": 0.13159722222222223
+    },
+    {
+      "strength": 0.5,
+      "regime": "r_up",
+      "delay_ms": 40,
+      "policy": "age",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0007295902828663188,
+        "descriptive_95": [
+          -0.0014349296121915968,
+          -9.588212959977996e-05
+        ]
+      },
+      "tracking_rmse_mean": 0.12493371926154984,
+      "control_integral_minus_keep": {
+        "mean": 0.02145240413150852,
+        "descriptive_95": [
+          0.008258715340510038,
+          0.038560536113088
+        ]
+      },
+      "control_integral_mean": 1.8956910235099047,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.013333333333333334,
+        "descriptive_95": [
+          0.0031250000000000006,
+          0.02666666666666667
+        ]
+      },
+      "forced_fraction_full_mean": 0.013333333333333334
+    },
+    {
+      "strength": 0.5,
+      "regime": "r_up",
+      "delay_ms": 40,
+      "policy": "innovation",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.00016812937930846608,
+        "descriptive_95": [
+          -0.0006141663677037875,
+          0.0002257433722015026
+        ]
+      },
+      "tracking_rmse_mean": 0.12549518016510772,
+      "control_integral_minus_keep": {
+        "mean": 0.007342230697882593,
+        "descriptive_95": [
+          -0.0014990187856750055,
+          0.01594650230944557
+        ]
+      },
+      "control_integral_mean": 1.8815808500762785,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.06895833333333333,
+        "descriptive_95": [
+          0.058744791666666664,
+          0.080625
+        ]
+      },
+      "forced_fraction_full_mean": 0.06895833333333333
+    },
+    {
+      "strength": 0.5,
+      "regime": "r_up",
+      "delay_ms": 40,
+      "policy": "random",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0011942348435550598,
+        "descriptive_95": [
+          -0.0019011782191525382,
+          -0.0005843302386065739
+        ]
+      },
+      "tracking_rmse_mean": 0.1244690747008611,
+      "control_integral_minus_keep": {
+        "mean": 0.026326412057992743,
+        "descriptive_95": [
+          0.014804882987297532,
+          0.04063098606253542
+        ]
+      },
+      "control_integral_mean": 1.900565031436389,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.020833333333333332,
+        "descriptive_95": [
+          0.013125,
+          0.02854166666666667
+        ]
+      },
+      "forced_fraction_full_mean": 0.020833333333333332
+    },
+    {
+      "strength": 0.5,
+      "regime": "r_up",
+      "delay_ms": 80,
+      "policy": "learned",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -6.796051642312823e-05,
+        "descriptive_95": [
+          -0.0018028000323394115,
+          0.0016301674289358771
+        ]
+      },
+      "tracking_rmse_mean": 0.12971595619390394,
+      "control_integral_minus_keep": {
+        "mean": 0.02280538832842492,
+        "descriptive_95": [
+          0.005453738949266605,
+          0.044154361638916034
+        ]
+      },
+      "control_integral_mean": 1.9502550076440894,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.00034722222222222224,
+        "descriptive_95": [
+          0.0,
+          0.00125
+        ]
+      },
+      "forced_fraction_full_mean": 0.00034722222222222224
+    },
+    {
+      "strength": 0.5,
+      "regime": "r_up",
+      "delay_ms": 80,
+      "policy": "age",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0008232534246222673,
+        "descriptive_95": [
+          -0.0015737746545952203,
+          -0.00022506502334722673
+        ]
+      },
+      "tracking_rmse_mean": 0.1289606632857048,
+      "control_integral_minus_keep": {
+        "mean": 0.017223826596820962,
+        "descriptive_95": [
+          0.005917416398413329,
+          0.03077438145406342
+        ]
+      },
+      "control_integral_mean": 1.9446734459124855,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.5,
+        "descriptive_95": [
+          0.5,
+          0.5
+        ]
+      },
+      "forced_fraction_full_mean": 0.5
+    },
+    {
+      "strength": 0.5,
+      "regime": "r_up",
+      "delay_ms": 80,
+      "policy": "innovation",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.00011913005745764714,
+        "descriptive_95": [
+          -0.00048081448736173656,
+          0.00019823621408297887
+        ]
+      },
+      "tracking_rmse_mean": 0.12966478665286943,
+      "control_integral_minus_keep": {
+        "mean": 0.0071328131248974925,
+        "descriptive_95": [
+          -0.0008555606751225893,
+          0.015251465143020976
+        ]
+      },
+      "control_integral_mean": 1.9345824324405623,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.06958333333333333,
+        "descriptive_95": [
+          0.058958333333333335,
+          0.08145833333333334
+        ]
+      },
+      "forced_fraction_full_mean": 0.06958333333333333
+    },
+    {
+      "strength": 0.5,
+      "regime": "r_up",
+      "delay_ms": 80,
+      "policy": "random",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0008971886054295569,
+        "descriptive_95": [
+          -0.0018301804965334544,
+          -0.00014902880168603765
+        ]
+      },
+      "tracking_rmse_mean": 0.1288867281048975,
+      "control_integral_minus_keep": {
+        "mean": 0.02270292449592778,
+        "descriptive_95": [
+          0.01100118679424582,
+          0.036519938559447185
+        ]
+      },
+      "control_integral_mean": 1.9501525438115923,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.017291666666666667,
+        "descriptive_95": [
+          0.008541666666666668,
+          0.0275
+        ]
+      },
+      "forced_fraction_full_mean": 0.017291666666666667
+    },
+    {
+      "strength": 1.0,
+      "regime": "q_up",
+      "delay_ms": 0,
+      "policy": "learned",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.002914132287519146,
+        "descriptive_95": [
+          -0.004586546713335263,
+          -0.0013184669952634694
+        ]
+      },
+      "tracking_rmse_mean": 0.40599882662748427,
+      "control_integral_minus_keep": {
+        "mean": 0.4275342078119846,
+        "descriptive_95": [
+          0.2654602331283278,
+          0.630609004053339
+        ]
+      },
+      "control_integral_mean": 21.64964387027148,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0012499999999999994,
+        "descriptive_95": [
+          -6.944444444444446e-05,
+          0.0027777777777777766
+        ]
+      },
+      "saturation_fraction_mean": 0.04895833333333333,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.28020833333333334,
+        "descriptive_95": [
+          0.24811979166666667,
+          0.305625
+        ]
+      },
+      "forced_fraction_full_mean": 0.28020833333333334
+    },
+    {
+      "strength": 1.0,
+      "regime": "q_up",
+      "delay_ms": 0,
+      "policy": "age",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0008226021729187694,
+        "descriptive_95": [
+          -0.002547569419377837,
+          0.0011000622965457066
+        ]
+      },
+      "tracking_rmse_mean": 0.40809035674208466,
+      "control_integral_minus_keep": {
+        "mean": 0.4869333610949978,
+        "descriptive_95": [
+          0.33082224524749904,
+          0.6700785635927013
+        ]
+      },
+      "control_integral_mean": 21.70904302355449,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0029166666666666664,
+        "descriptive_95": [
+          0.0009722222222222232,
+          0.005208333333333332
+        ]
+      },
+      "saturation_fraction_mean": 0.050624999999999996,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "forced_fraction_full_mean": 0.0
+    },
+    {
+      "strength": 1.0,
+      "regime": "q_up",
+      "delay_ms": 0,
+      "policy": "innovation",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0002924533905242314,
+        "descriptive_95": [
+          -0.0009539553499123977,
+          0.0003020418707444114
+        ]
+      },
+      "tracking_rmse_mean": 0.40862050552447915,
+      "control_integral_minus_keep": {
+        "mean": 0.2750092221383105,
+        "descriptive_95": [
+          0.15227773512825685,
+          0.4150035619557668
+        ]
+      },
+      "control_integral_mean": 21.497118884597807,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0006944444444444437,
+        "descriptive_95": [
+          0.0,
+          0.001736111111111109
+        ]
+      },
+      "saturation_fraction_mean": 0.048402777777777774,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "forced_fraction_full_mean": 0.0
+    },
+    {
+      "strength": 1.0,
+      "regime": "q_up",
+      "delay_ms": 0,
+      "policy": "random",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0008786033471072622,
+        "descriptive_95": [
+          -0.002454890369272155,
+          0.0008126700117466142
+        ]
+      },
+      "tracking_rmse_mean": 0.4080343555678961,
+      "control_integral_minus_keep": {
+        "mean": 0.4591364213976943,
+        "descriptive_95": [
+          0.3006627073759006,
+          0.6326959007998408
+        ]
+      },
+      "control_integral_mean": 21.68124608385719,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0020833333333333333,
+        "descriptive_95": [
+          0.0006250000000000001,
+          0.003750000000000001
+        ]
+      },
+      "saturation_fraction_mean": 0.04979166666666666,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.006250000000000001,
+        "descriptive_95": [
+          0.0029166666666666664,
+          0.01
+        ]
+      },
+      "forced_fraction_full_mean": 0.006250000000000001
+    },
+    {
+      "strength": 1.0,
+      "regime": "q_up",
+      "delay_ms": 40,
+      "policy": "learned",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0027420107191867423,
+        "descriptive_95": [
+          -0.004757048527115273,
+          -0.0007467951647483312
+        ]
+      },
+      "tracking_rmse_mean": 0.4287521358318882,
+      "control_integral_minus_keep": {
+        "mean": 0.44705898230103785,
+        "descriptive_95": [
+          0.31014267859498745,
+          0.5999528179266934
+        ]
+      },
+      "control_integral_mean": 22.67530813912923,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0024305555555555547,
+        "descriptive_95": [
+          6.944444444444504e-05,
+          0.005624999999999999
+        ]
+      },
+      "saturation_fraction_mean": 0.055347222222222214,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.11472222222222223,
+        "descriptive_95": [
+          0.08916666666666667,
+          0.13944618055555558
+        ]
+      },
+      "forced_fraction_full_mean": 0.11472222222222223
+    },
+    {
+      "strength": 1.0,
+      "regime": "q_up",
+      "delay_ms": 40,
+      "policy": "age",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0011891588612268297,
+        "descriptive_95": [
+          -0.0028216651758031937,
+          0.000422170865802617
+        ]
+      },
+      "tracking_rmse_mean": 0.43030498768984815,
+      "control_integral_minus_keep": {
+        "mean": 0.45038883965322934,
+        "descriptive_95": [
+          0.3207682136930617,
+          0.5911815562413149
+        ]
+      },
+      "control_integral_mean": 22.678637996481417,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0022222222222222214,
+        "descriptive_95": [
+          -0.0002083333333333351,
+          0.005418402777777784
+        ]
+      },
+      "saturation_fraction_mean": 0.05513888888888888,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.013333333333333334,
+        "descriptive_95": [
+          0.003541666666666667,
+          0.026458333333333334
+        ]
+      },
+      "forced_fraction_full_mean": 0.013333333333333334
+    },
+    {
+      "strength": 1.0,
+      "regime": "q_up",
+      "delay_ms": 40,
+      "policy": "innovation",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.00018209156921786146,
+        "descriptive_95": [
+          -0.0007831330068846959,
+          0.00039200785039590304
+        ]
+      },
+      "tracking_rmse_mean": 0.43131205498185715,
+      "control_integral_minus_keep": {
+        "mean": 0.2613203495660118,
+        "descriptive_95": [
+          0.15098950132352187,
+          0.38921883843634497
+        ]
+      },
+      "control_integral_mean": 22.4895695063942,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0013888888888888892,
+        "descriptive_95": [
+          0.0002083333333333338,
+          0.0029861111111111117
+        ]
+      },
+      "saturation_fraction_mean": 0.05430555555555555,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "forced_fraction_full_mean": 0.0
+    },
+    {
+      "strength": 1.0,
+      "regime": "q_up",
+      "delay_ms": 40,
+      "policy": "random",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0017379682467083362,
+        "descriptive_95": [
+          -0.003440718103285114,
+          -1.3573696858491977e-05
+        ]
+      },
+      "tracking_rmse_mean": 0.42975617830436663,
+      "control_integral_minus_keep": {
+        "mean": 0.49142213389965433,
+        "descriptive_95": [
+          0.347631545117506,
+          0.6649258975808489
+        ]
+      },
+      "control_integral_mean": 22.719671290727845,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0025694444444444436,
+        "descriptive_95": [
+          0.00020833333333333186,
+          0.005763888888888889
+        ]
+      },
+      "saturation_fraction_mean": 0.05548611111111112,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.020833333333333332,
+        "descriptive_95": [
+          0.013333333333333334,
+          0.028749999999999998
+        ]
+      },
+      "forced_fraction_full_mean": 0.020833333333333332
+    },
+    {
+      "strength": 1.0,
+      "regime": "q_up",
+      "delay_ms": 80,
+      "policy": "learned",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0008233942697693439,
+        "descriptive_95": [
+          -0.003028362174013501,
+          0.0013224791789810569
+        ]
+      },
+      "tracking_rmse_mean": 0.45320606968808014,
+      "control_integral_minus_keep": {
+        "mean": 0.5189324476257903,
+        "descriptive_95": [
+          0.3716783261796395,
+          0.6715500663594953
+        ]
+      },
+      "control_integral_mean": 23.76732274163163,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.002847222222222222,
+        "descriptive_95": [
+          0.0012499999999999998,
+          0.004722222222222224
+        ]
+      },
+      "saturation_fraction_mean": 0.0625,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "forced_fraction_full_mean": 0.0
+    },
+    {
+      "strength": 1.0,
+      "regime": "q_up",
+      "delay_ms": 80,
+      "policy": "age",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0017585149533667587,
+        "descriptive_95": [
+          -0.0032772109042073813,
+          -0.00038406365368772285
+        ]
+      },
+      "tracking_rmse_mean": 0.4522709490044828,
+      "control_integral_minus_keep": {
+        "mean": 0.537388059182499,
+        "descriptive_95": [
+          0.395617685860422,
+          0.6950346573282199
+        ]
+      },
+      "control_integral_mean": 23.785778353188338,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0022222222222222222,
+        "descriptive_95": [
+          0.0006250000000000004,
+          0.004376736111111119
+        ]
+      },
+      "saturation_fraction_mean": 0.06187499999999999,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.5,
+        "descriptive_95": [
+          0.5,
+          0.5
+        ]
+      },
+      "forced_fraction_full_mean": 0.5
+    },
+    {
+      "strength": 1.0,
+      "regime": "q_up",
+      "delay_ms": 80,
+      "policy": "innovation",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -8.053806220140296e-05,
+        "descriptive_95": [
+          -0.0006576708921158521,
+          0.0004424165390805503
+        ]
+      },
+      "tracking_rmse_mean": 0.4539489258956481,
+      "control_integral_minus_keep": {
+        "mean": 0.24664529097985624,
+        "descriptive_95": [
+          0.1474745192362744,
+          0.36022919289757543
+        ]
+      },
+      "control_integral_mean": 23.495035584985697,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0015277777777777779,
+        "descriptive_95": [
+          0.0005555555555555543,
+          0.002638888888888889
+        ]
+      },
+      "saturation_fraction_mean": 0.06118055555555555,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "forced_fraction_full_mean": 0.0
+    },
+    {
+      "strength": 1.0,
+      "regime": "q_up",
+      "delay_ms": 80,
+      "policy": "random",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0009550747363946133,
+        "descriptive_95": [
+          -0.0022742929930839174,
+          0.0003133476572141323
+        ]
+      },
+      "tracking_rmse_mean": 0.4530743892214549,
+      "control_integral_minus_keep": {
+        "mean": 0.46821860914003594,
+        "descriptive_95": [
+          0.34568113415850876,
+          0.5909026699675323
+        ]
+      },
+      "control_integral_mean": 23.71660890314588,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0018749999999999993,
+        "descriptive_95": [
+          0.0005538194444444422,
+          0.0034722222222222216
+        ]
+      },
+      "saturation_fraction_mean": 0.06152777777777777,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.017291666666666667,
+        "descriptive_95": [
+          0.008541666666666666,
+          0.0275
+        ]
+      },
+      "forced_fraction_full_mean": 0.017291666666666667
+    },
+    {
+      "strength": 1.0,
+      "regime": "r_up",
+      "delay_ms": 0,
+      "policy": "learned",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": 0.0001432156647435025,
+        "descriptive_95": [
+          -0.0010059019206857625,
+          0.0013080405711824261
+        ]
+      },
+      "tracking_rmse_mean": 0.12175746268698999,
+      "control_integral_minus_keep": {
+        "mean": 0.019097839957256803,
+        "descriptive_95": [
+          0.000769495743564479,
+          0.03899008435723428
+        ]
+      },
+      "control_integral_mean": 2.2206506131845343,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.3852777777777778,
+        "descriptive_95": [
+          0.3717361111111111,
+          0.3982638888888889
+        ]
+      },
+      "forced_fraction_full_mean": 0.3852777777777778
+    },
+    {
+      "strength": 1.0,
+      "regime": "r_up",
+      "delay_ms": 0,
+      "policy": "age",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.00048556515248869716,
+        "descriptive_95": [
+          -0.0011591605830837824,
+          0.00019861220728625056
+        ]
+      },
+      "tracking_rmse_mean": 0.1211286818697578,
+      "control_integral_minus_keep": {
+        "mean": 0.02275047540282697,
+        "descriptive_95": [
+          0.005014635561260779,
+          0.04375176177184129
+        ]
+      },
+      "control_integral_mean": 2.2243032486301044,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "forced_fraction_full_mean": 0.0
+    },
+    {
+      "strength": 1.0,
+      "regime": "r_up",
+      "delay_ms": 0,
+      "policy": "innovation",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.00020857102777511785,
+        "descriptive_95": [
+          -0.0006493762577030021,
+          0.0001577461553944464
+        ]
+      },
+      "tracking_rmse_mean": 0.12140567599447138,
+      "control_integral_minus_keep": {
+        "mean": 0.009603799772195115,
+        "descriptive_95": [
+          -0.001450965348326877,
+          0.023134175152043458
+        ]
+      },
+      "control_integral_mean": 2.2111565729994727,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "forced_fraction_full_mean": 0.0
+    },
+    {
+      "strength": 1.0,
+      "regime": "r_up",
+      "delay_ms": 0,
+      "policy": "random",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0012181049131262563,
+        "descriptive_95": [
+          -0.0021329328180434413,
+          -0.0004178332250164483
+        ]
+      },
+      "tracking_rmse_mean": 0.12039614210912024,
+      "control_integral_minus_keep": {
+        "mean": 0.02099683456824121,
+        "descriptive_95": [
+          -0.0009171004516397175,
+          0.04473219437614401
+        ]
+      },
+      "control_integral_mean": 2.2225496077955187,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.006250000000000001,
+        "descriptive_95": [
+          0.002916666666666667,
+          0.009791666666666667
+        ]
+      },
+      "forced_fraction_full_mean": 0.006250000000000001
+    },
+    {
+      "strength": 1.0,
+      "regime": "r_up",
+      "delay_ms": 40,
+      "policy": "learned",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": 0.00021529365272422227,
+        "descriptive_95": [
+          -0.0009526568227216022,
+          0.0014641914783684277
+        ]
+      },
+      "tracking_rmse_mean": 0.1257263149975962,
+      "control_integral_minus_keep": {
+        "mean": 0.02022123996004355,
+        "descriptive_95": [
+          0.0030216244228077316,
+          0.04034158784249626
+        ]
+      },
+      "control_integral_mean": 2.2944450442490356,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.3647916666666666,
+        "descriptive_95": [
+          0.3489565972222222,
+          0.38013888888888886
+        ]
+      },
+      "forced_fraction_full_mean": 0.3647916666666666
+    },
+    {
+      "strength": 1.0,
+      "regime": "r_up",
+      "delay_ms": 40,
+      "policy": "age",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0005086440127796479,
+        "descriptive_95": [
+          -0.0014218842433347152,
+          0.00034661186018566915
+        ]
+      },
+      "tracking_rmse_mean": 0.12500237733209235,
+      "control_integral_minus_keep": {
+        "mean": 0.019537517654839655,
+        "descriptive_95": [
+          -0.00042631609767865877,
+          0.04514084628575811
+        ]
+      },
+      "control_integral_mean": 2.293761321943831,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.013333333333333334,
+        "descriptive_95": [
+          0.0035416666666666665,
+          0.025208333333333333
+        ]
+      },
+      "forced_fraction_full_mean": 0.013333333333333334
+    },
+    {
+      "strength": 1.0,
+      "regime": "r_up",
+      "delay_ms": 40,
+      "policy": "innovation",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.00023900881421182532,
+        "descriptive_95": [
+          -0.0006415055330357311,
+          9.314258638578473e-05
+        ]
+      },
+      "tracking_rmse_mean": 0.12527201253066017,
+      "control_integral_minus_keep": {
+        "mean": 0.010006590693524641,
+        "descriptive_95": [
+          -0.0005952916711114856,
+          0.024188236787344566
+        ]
+      },
+      "control_integral_mean": 2.2842303949825165,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "forced_fraction_full_mean": 0.0
+    },
+    {
+      "strength": 1.0,
+      "regime": "r_up",
+      "delay_ms": 40,
+      "policy": "random",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.001074347740358181,
+        "descriptive_95": [
+          -0.0018605591011136807,
+          -0.00038361783854266434
+        ]
+      },
+      "tracking_rmse_mean": 0.12443667360451381,
+      "control_integral_minus_keep": {
+        "mean": 0.028277525643884863,
+        "descriptive_95": [
+          0.009485373715592913,
+          0.04982601376667927
+        ]
+      },
+      "control_integral_mean": 2.3025013299328765,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.020833333333333332,
+        "descriptive_95": [
+          0.013125,
+          0.028125
+        ]
+      },
+      "forced_fraction_full_mean": 0.020833333333333332
+    },
+    {
+      "strength": 1.0,
+      "regime": "r_up",
+      "delay_ms": 80,
+      "policy": "learned",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": 0.0008489146414104783,
+        "descriptive_95": [
+          -0.0014373367360956551,
+          0.0031525177156250445
+        ]
+      },
+      "tracking_rmse_mean": 0.1305274081564234,
+      "control_integral_minus_keep": {
+        "mean": 0.004398892690766344,
+        "descriptive_95": [
+          -0.010077284045387299,
+          0.02054725407522169
+        ]
+      },
+      "control_integral_mean": 2.353661328437873,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.22791666666666668,
+        "descriptive_95": [
+          0.19728993055555552,
+          0.25938020833333336
+        ]
+      },
+      "forced_fraction_full_mean": 0.22791666666666668
+    },
+    {
+      "strength": 1.0,
+      "regime": "r_up",
+      "delay_ms": 80,
+      "policy": "age",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0005893280143268293,
+        "descriptive_95": [
+          -0.0012782681967239658,
+          7.078492833907685e-05
+        ]
+      },
+      "tracking_rmse_mean": 0.12908916550068614,
+      "control_integral_minus_keep": {
+        "mean": 0.017753970247058905,
+        "descriptive_95": [
+          9.111181134991892e-05,
+          0.03933820118154033
+        ]
+      },
+      "control_integral_mean": 2.367016405994166,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.5,
+        "descriptive_95": [
+          0.5,
+          0.5
+        ]
+      },
+      "forced_fraction_full_mean": 0.5
+    },
+    {
+      "strength": 1.0,
+      "regime": "r_up",
+      "delay_ms": 80,
+      "policy": "innovation",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.00016361992953616662,
+        "descriptive_95": [
+          -0.0004726152812997712,
+          9.263324939320663e-05
+        ]
+      },
+      "tracking_rmse_mean": 0.12951487358547678,
+      "control_integral_minus_keep": {
+        "mean": 0.00963172234325367,
+        "descriptive_95": [
+          -0.0007054734605847128,
+          0.023240409490592043
+        ]
+      },
+      "control_integral_mean": 2.3588941580903606,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "forced_fraction_full_mean": 0.0
+    },
+    {
+      "strength": 1.0,
+      "regime": "r_up",
+      "delay_ms": 80,
+      "policy": "random",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0007914521340860216,
+        "descriptive_95": [
+          -0.0019192460953953053,
+          0.00015590210256274267
+        ]
+      },
+      "tracking_rmse_mean": 0.1288870413809269,
+      "control_integral_minus_keep": {
+        "mean": 0.020387802314565082,
+        "descriptive_95": [
+          0.00292661226738601,
+          0.04217246775304483
+        ]
+      },
+      "control_integral_mean": 2.369650238061672,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.017291666666666667,
+        "descriptive_95": [
+          0.008541666666666668,
+          0.02729166666666667
+        ]
+      },
+      "forced_fraction_full_mean": 0.017291666666666667
+    },
+    {
+      "strength": 1.5,
+      "regime": "q_up",
+      "delay_ms": 0,
+      "policy": "learned",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0014377391304375559,
+        "descriptive_95": [
+          -0.003583206163532696,
+          0.0006546747407173171
+        ]
+      },
+      "tracking_rmse_mean": 0.6238322371335739,
+      "control_integral_minus_keep": {
+        "mean": 0.4284346129566135,
+        "descriptive_95": [
+          0.28133334209568883,
+          0.5835757407384855
+        ]
+      },
+      "control_integral_mean": 38.187314037378535,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0023611111111111103,
+        "descriptive_95": [
+          0.0006927083333333299,
+          0.0038888888888888875
+        ]
+      },
+      "saturation_fraction_mean": 0.19569444444444448,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.12673611111111113,
+        "descriptive_95": [
+          0.09541666666666666,
+          0.15583333333333335
+        ]
+      },
+      "forced_fraction_full_mean": 0.12673611111111113
+    },
+    {
+      "strength": 1.5,
+      "regime": "q_up",
+      "delay_ms": 0,
+      "policy": "age",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": 0.00044223694266682056,
+        "descriptive_95": [
+          -0.0016082482722677956,
+          0.0034317679291027223
+        ]
+      },
+      "tracking_rmse_mean": 0.6257122132066782,
+      "control_integral_minus_keep": {
+        "mean": 0.46966019314709434,
+        "descriptive_95": [
+          0.3051448519209407,
+          0.6457175254915019
+        ]
+      },
+      "control_integral_mean": 38.22853961756902,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.003194444444444442,
+        "descriptive_95": [
+          0.0012499999999999987,
+          0.00534895833333334
+        ]
+      },
+      "saturation_fraction_mean": 0.19652777777777777,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "forced_fraction_full_mean": 0.0
+    },
+    {
+      "strength": 1.5,
+      "regime": "q_up",
+      "delay_ms": 0,
+      "policy": "innovation",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": 0.0008340585633251976,
+        "descriptive_95": [
+          -0.00025336935139413913,
+          0.0021057226318744768
+        ]
+      },
+      "tracking_rmse_mean": 0.6261040348273367,
+      "control_integral_minus_keep": {
+        "mean": 0.3666319661849801,
+        "descriptive_95": [
+          0.22415053715242045,
+          0.5260167945635078
+        ]
+      },
+      "control_integral_mean": 38.1255113906069,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0022916666666666654,
+        "descriptive_95": [
+          0.0004166666666666663,
+          0.004444444444444441
+        ]
+      },
+      "saturation_fraction_mean": 0.19562499999999997,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "forced_fraction_full_mean": 0.0
+    },
+    {
+      "strength": 1.5,
+      "regime": "q_up",
+      "delay_ms": 0,
+      "policy": "random",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": 0.0001286678897457922,
+        "descriptive_95": [
+          -0.002089859769455748,
+          0.0025862102116293198
+        ]
+      },
+      "tracking_rmse_mean": 0.6253986441537572,
+      "control_integral_minus_keep": {
+        "mean": 0.466183412018455,
+        "descriptive_95": [
+          0.293874091643782,
+          0.6565487920814584
+        ]
+      },
+      "control_integral_mean": 38.22506283644038,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0022222222222222214,
+        "descriptive_95": [
+          -0.000277777777777776,
+          0.0048611111111111095
+        ]
+      },
+      "saturation_fraction_mean": 0.19555555555555557,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.006250000000000001,
+        "descriptive_95": [
+          0.002916666666666667,
+          0.009791666666666667
+        ]
+      },
+      "forced_fraction_full_mean": 0.006250000000000001
+    },
+    {
+      "strength": 1.5,
+      "regime": "q_up",
+      "delay_ms": 40,
+      "policy": "learned",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0012122962867853887,
+        "descriptive_95": [
+          -0.0033972859757062683,
+          0.0007847641427842871
+        ]
+      },
+      "tracking_rmse_mean": 0.6586460308314891,
+      "control_integral_minus_keep": {
+        "mean": 0.3955519292455884,
+        "descriptive_95": [
+          0.26520697702443585,
+          0.526650437483692
+        ]
+      },
+      "control_integral_mean": 39.3022356965417,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.004236111111111115,
+        "descriptive_95": [
+          0.0022916666666666693,
+          0.006668402777777796
+        ]
+      },
+      "saturation_fraction_mean": 0.2109027777777778,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.008749999999999999,
+        "descriptive_95": [
+          0.0,
+          0.020833333333333332
+        ]
+      },
+      "forced_fraction_full_mean": 0.008749999999999999
+    },
+    {
+      "strength": 1.5,
+      "regime": "q_up",
+      "delay_ms": 40,
+      "policy": "age",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0006187985974921763,
+        "descriptive_95": [
+          -0.002456013696992518,
+          0.0010299246496926916
+        ]
+      },
+      "tracking_rmse_mean": 0.6592395285207824,
+      "control_integral_minus_keep": {
+        "mean": 0.41282822885038944,
+        "descriptive_95": [
+          0.2883257296716441,
+          0.5282736392419173
+        ]
+      },
+      "control_integral_mean": 39.3195119961465,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0036805555555555597,
+        "descriptive_95": [
+          0.0014583333333333375,
+          0.00618055555555556
+        ]
+      },
+      "saturation_fraction_mean": 0.21034722222222224,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.013333333333333334,
+        "descriptive_95": [
+          0.003541666666666667,
+          0.026458333333333334
+        ]
+      },
+      "forced_fraction_full_mean": 0.013333333333333334
+    },
+    {
+      "strength": 1.5,
+      "regime": "q_up",
+      "delay_ms": 40,
+      "policy": "innovation",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": 0.0007357366179395348,
+        "descriptive_95": [
+          -0.0002710295839222454,
+          0.0018923868986492366
+        ]
+      },
+      "tracking_rmse_mean": 0.6605940637362141,
+      "control_integral_minus_keep": {
+        "mean": 0.33541071105384485,
+        "descriptive_95": [
+          0.21266715111805626,
+          0.4748655463219063
+        ]
+      },
+      "control_integral_mean": 39.24209447834996,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0022222222222222244,
+        "descriptive_95": [
+          -0.00034722222222222115,
+          0.005416666666666664
+        ]
+      },
+      "saturation_fraction_mean": 0.2088888888888889,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "forced_fraction_full_mean": 0.0
+    },
+    {
+      "strength": 1.5,
+      "regime": "q_up",
+      "delay_ms": 40,
+      "policy": "random",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0009922431195752424,
+        "descriptive_95": [
+          -0.003062173004310671,
+          0.001276443889413853
+        ]
+      },
+      "tracking_rmse_mean": 0.6588660839986994,
+      "control_integral_minus_keep": {
+        "mean": 0.4503704106557231,
+        "descriptive_95": [
+          0.30022617271745144,
+          0.6235509739172208
+        ]
+      },
+      "control_integral_mean": 39.35705417795183,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.00444444444444445,
+        "descriptive_95": [
+          0.001736111111111118,
+          0.0077083333333333405
+        ]
+      },
+      "saturation_fraction_mean": 0.2111111111111111,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.020833333333333332,
+        "descriptive_95": [
+          0.013541666666666667,
+          0.02854166666666667
+        ]
+      },
+      "forced_fraction_full_mean": 0.020833333333333332
+    },
+    {
+      "strength": 1.5,
+      "regime": "q_up",
+      "delay_ms": 80,
+      "policy": "learned",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.00042596017105622314,
+        "descriptive_95": [
+          -0.002682143030330839,
+          0.001781680307502868
+        ]
+      },
+      "tracking_rmse_mean": 0.69390210576677,
+      "control_integral_minus_keep": {
+        "mean": 0.49619682261490666,
+        "descriptive_95": [
+          0.34493046001426847,
+          0.6507635577773274
+        ]
+      },
+      "control_integral_mean": 40.429500202559886,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.004861111111111111,
+        "descriptive_95": [
+          0.002291666666666671,
+          0.007777777777777779
+        ]
+      },
+      "saturation_fraction_mean": 0.22354166666666667,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "forced_fraction_full_mean": 0.0
+    },
+    {
+      "strength": 1.5,
+      "regime": "q_up",
+      "delay_ms": 80,
+      "policy": "age",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0007836978308174055,
+        "descriptive_95": [
+          -0.0026076675770721567,
+          0.0008715622573315325
+        ]
+      },
+      "tracking_rmse_mean": 0.6935443681070087,
+      "control_integral_minus_keep": {
+        "mean": 0.5105759989712774,
+        "descriptive_95": [
+          0.374893332280754,
+          0.6409157086957276
+        ]
+      },
+      "control_integral_mean": 40.44387937891626,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.005069444444444445,
+        "descriptive_95": [
+          0.002499999999999998,
+          0.00805555555555555
+        ]
+      },
+      "saturation_fraction_mean": 0.22375,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.5,
+        "descriptive_95": [
+          0.5,
+          0.5
+        ]
+      },
+      "forced_fraction_full_mean": 0.5
+    },
+    {
+      "strength": 1.5,
+      "regime": "q_up",
+      "delay_ms": 80,
+      "policy": "innovation",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": 0.0007216490615923679,
+        "descriptive_95": [
+          -0.0002037091717331237,
+          0.0017555753710115159
+        ]
+      },
+      "tracking_rmse_mean": 0.6950497149994185,
+      "control_integral_minus_keep": {
+        "mean": 0.3055888582093411,
+        "descriptive_95": [
+          0.1948909760830703,
+          0.43036701860074716
+        ]
+      },
+      "control_integral_mean": 40.23889223815433,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0036805555555555563,
+        "descriptive_95": [
+          0.0011805555555555547,
+          0.006875000000000002
+        ]
+      },
+      "saturation_fraction_mean": 0.22236111111111112,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "forced_fraction_full_mean": 0.0
+    },
+    {
+      "strength": 1.5,
+      "regime": "q_up",
+      "delay_ms": 80,
+      "policy": "random",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": 3.595956749703986e-05,
+        "descriptive_95": [
+          -0.001520476702638555,
+          0.001719277483934872
+        ]
+      },
+      "tracking_rmse_mean": 0.6943640255053233,
+      "control_integral_minus_keep": {
+        "mean": 0.44736263486214645,
+        "descriptive_95": [
+          0.33580318856077696,
+          0.5543708253258077
+        ]
+      },
+      "control_integral_mean": 40.38066601480713,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.00597222222222222,
+        "descriptive_95": [
+          0.0035416666666666687,
+          0.008541666666666664
+        ]
+      },
+      "saturation_fraction_mean": 0.22465277777777778,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.017291666666666667,
+        "descriptive_95": [
+          0.008125,
+          0.027499999999999997
+        ]
+      },
+      "forced_fraction_full_mean": 0.017291666666666667
+    },
+    {
+      "strength": 1.5,
+      "regime": "r_up",
+      "delay_ms": 0,
+      "policy": "learned",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.00022444175236489288,
+        "descriptive_95": [
+          -0.0012678512074538253,
+          0.0008339824686944686
+        ]
+      },
+      "tracking_rmse_mean": 0.12126660066840593,
+      "control_integral_minus_keep": {
+        "mean": 0.01478783128898444,
+        "descriptive_95": [
+          -0.01262251338633301,
+          0.044920870080190814
+        ]
+      },
+      "control_integral_mean": 2.8477437307018945,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.4429166666666667,
+        "descriptive_95": [
+          0.43555555555555553,
+          0.45118055555555553
+        ]
+      },
+      "forced_fraction_full_mean": 0.4429166666666667
+    },
+    {
+      "strength": 1.5,
+      "regime": "r_up",
+      "delay_ms": 0,
+      "policy": "age",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0003324931820842562,
+        "descriptive_95": [
+          -0.001008557415895134,
+          0.0004214992770055345
+        ]
+      },
+      "tracking_rmse_mean": 0.12115854923868656,
+      "control_integral_minus_keep": {
+        "mean": 0.013863690764504505,
+        "descriptive_95": [
+          -0.011920798941354019,
+          0.042558486282396966
+        ]
+      },
+      "control_integral_mean": 2.846819590177414,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "forced_fraction_full_mean": 0.0
+    },
+    {
+      "strength": 1.5,
+      "regime": "r_up",
+      "delay_ms": 0,
+      "policy": "innovation",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0002551498523431321,
+        "descriptive_95": [
+          -0.0007266960623094784,
+          0.00020266356711512123
+        ]
+      },
+      "tracking_rmse_mean": 0.12123589256842769,
+      "control_integral_minus_keep": {
+        "mean": 0.009148665754323016,
+        "descriptive_95": [
+          -0.011625881244128868,
+          0.0316842312881396
+        ]
+      },
+      "control_integral_mean": 2.8421045651672325,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "forced_fraction_full_mean": 0.0
+    },
+    {
+      "strength": 1.5,
+      "regime": "r_up",
+      "delay_ms": 0,
+      "policy": "random",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.001067642124130507,
+        "descriptive_95": [
+          -0.002036878817922461,
+          -0.00020851113968339182
+        ]
+      },
+      "tracking_rmse_mean": 0.1204234002966403,
+      "control_integral_minus_keep": {
+        "mean": 0.013756029718271306,
+        "descriptive_95": [
+          -0.015597039261827405,
+          0.046969049355277404
+        ]
+      },
+      "control_integral_mean": 2.8467119291311804,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.006250000000000001,
+        "descriptive_95": [
+          0.002916666666666667,
+          0.01
+        ]
+      },
+      "forced_fraction_full_mean": 0.006250000000000001
+    },
+    {
+      "strength": 1.5,
+      "regime": "r_up",
+      "delay_ms": 40,
+      "policy": "learned",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0003451691556913233,
+        "descriptive_95": [
+          -0.0012062023711352174,
+          0.0004942711362540117
+        ]
+      },
+      "tracking_rmse_mean": 0.12508849672342975,
+      "control_integral_minus_keep": {
+        "mean": 0.01851659633808952,
+        "descriptive_95": [
+          -0.009560941055916197,
+          0.05132162947318755
+        ]
+      },
+      "control_integral_mean": 2.962270950077871,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.43958333333333327,
+        "descriptive_95": [
+          0.4281927083333334,
+          0.45041666666666663
+        ]
+      },
+      "forced_fraction_full_mean": 0.43958333333333327
+    },
+    {
+      "strength": 1.5,
+      "regime": "r_up",
+      "delay_ms": 40,
+      "policy": "age",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.00035537292106177797,
+        "descriptive_95": [
+          -0.0014241862243117617,
+          0.000677882355542433
+        ]
+      },
+      "tracking_rmse_mean": 0.1250782929580593,
+      "control_integral_minus_keep": {
+        "mean": 0.01443799964425578,
+        "descriptive_95": [
+          -0.015016706132518645,
+          0.04966083903490057
+        ]
+      },
+      "control_integral_mean": 2.9581923533840366,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.013333333333333334,
+        "descriptive_95": [
+          0.0033333333333333335,
+          0.027088541666666684
+        ]
+      },
+      "forced_fraction_full_mean": 0.013333333333333334
+    },
+    {
+      "strength": 1.5,
+      "regime": "r_up",
+      "delay_ms": 40,
+      "policy": "innovation",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.00028976613834176735,
+        "descriptive_95": [
+          -0.0007216660785685073,
+          0.0001195280449229791
+        ]
+      },
+      "tracking_rmse_mean": 0.1251438997407793,
+      "control_integral_minus_keep": {
+        "mean": 0.009081222478252918,
+        "descriptive_95": [
+          -0.010506161379597931,
+          0.031156678304951196
+        ]
+      },
+      "control_integral_mean": 2.9528355762180336,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "forced_fraction_full_mean": 0.0
+    },
+    {
+      "strength": 1.5,
+      "regime": "r_up",
+      "delay_ms": 40,
+      "policy": "random",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0009771674697001574,
+        "descriptive_95": [
+          -0.001785367923399485,
+          -0.00021121462338611932
+        ]
+      },
+      "tracking_rmse_mean": 0.12445649840942093,
+      "control_integral_minus_keep": {
+        "mean": 0.02694350832953474,
+        "descriptive_95": [
+          -0.0011614860807718558,
+          0.05853059783916591
+        ]
+      },
+      "control_integral_mean": 2.9706978620693163,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.020833333333333332,
+        "descriptive_95": [
+          0.013333333333333334,
+          0.02854166666666667
+        ]
+      },
+      "forced_fraction_full_mean": 0.020833333333333332
+    },
+    {
+      "strength": 1.5,
+      "regime": "r_up",
+      "delay_ms": 80,
+      "policy": "learned",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0003605678270568414,
+        "descriptive_95": [
+          -0.0014580041788007578,
+          0.0005677381762195447
+        ]
+      },
+      "tracking_rmse_mean": 0.12929835014195423,
+      "control_integral_minus_keep": {
+        "mean": 0.0090306595072671,
+        "descriptive_95": [
+          -0.01495316180229339,
+          0.03682855513080473
+        ]
+      },
+      "control_integral_mean": 3.0661865181799413,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.3928472222222223,
+        "descriptive_95": [
+          0.3727760416666666,
+          0.4122934027777778
+        ]
+      },
+      "forced_fraction_full_mean": 0.3928472222222223
+    },
+    {
+      "strength": 1.5,
+      "regime": "r_up",
+      "delay_ms": 80,
+      "policy": "age",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.00039595767242784144,
+        "descriptive_95": [
+          -0.001063102476325154,
+          0.0002950034196948733
+        ]
+      },
+      "tracking_rmse_mean": 0.12926296029658324,
+      "control_integral_minus_keep": {
+        "mean": 0.0168798341999534,
+        "descriptive_95": [
+          -0.009147977471119676,
+          0.04921309966408966
+        ]
+      },
+      "control_integral_mean": 3.074035692872627,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.5,
+        "descriptive_95": [
+          0.5,
+          0.5
+        ]
+      },
+      "forced_fraction_full_mean": 0.5
+    },
+    {
+      "strength": 1.5,
+      "regime": "r_up",
+      "delay_ms": 80,
+      "policy": "innovation",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0002120149784078158,
+        "descriptive_95": [
+          -0.0005855047146571668,
+          0.0001525480513371956
+        ]
+      },
+      "tracking_rmse_mean": 0.12944690299060327,
+      "control_integral_minus_keep": {
+        "mean": 0.00911178578984081,
+        "descriptive_95": [
+          -0.00793386483416409,
+          0.030254142047186013
+        ]
+      },
+      "control_integral_mean": 3.0662676444625148,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "forced_fraction_full_mean": 0.0
+    },
+    {
+      "strength": 1.5,
+      "regime": "r_up",
+      "delay_ms": 80,
+      "policy": "random",
+      "scenes": 16,
+      "fits": 3,
+      "tracking_rmse_minus_keep": {
+        "mean": -0.0007077320008242396,
+        "descriptive_95": [
+          -0.0019315292247691497,
+          0.00032754158024854093
+        ]
+      },
+      "tracking_rmse_mean": 0.12895118596818683,
+      "control_integral_minus_keep": {
+        "mean": 0.014602030419005216,
+        "descriptive_95": [
+          -0.0111371791392002,
+          0.047974048725059795
+        ]
+      },
+      "control_integral_mean": 3.071757889091679,
+      "saturation_fraction_minus_keep": {
+        "mean": 0.0,
+        "descriptive_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "saturation_fraction_mean": 0.0,
+      "write_fraction_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_mean": 0.5,
+      "write_fraction_full_minus_keep": {
+        "mean": -0.5,
+        "descriptive_95": [
+          -0.5,
+          -0.5
+        ]
+      },
+      "write_fraction_full_mean": 0.5,
+      "forced_fraction_full_minus_keep": {
+        "mean": 0.017291666666666667,
+        "descriptive_95": [
+          0.008333333333333333,
+          0.027083333333333334
+        ]
+      },
+      "forced_fraction_full_mean": 0.017291666666666667
+    }
+  ]
+}

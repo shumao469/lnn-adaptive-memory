@@ -1,0 +1,10 @@
+{
+  "calibration_scope": "validation scenes at multipliers 0.5 and 1.0; single-event feature distribution",
+  "learned_retention_rate": 0.5,
+  "age_cut": 0.03999999910593033,
+  "age_tie_probability": 0.5000000000000001,
+  "innovation_absolute_cut": 1.065990686416626,
+  "innovation_tie_probability": 0.0,
+  "random_retention_probability": 0.5,
+  "caveat": "matched in calibration expectation; report actual per-policy rates in closed loop"
+}

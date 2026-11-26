@@ -1,0 +1,86 @@
+{
+  "scope": "exploratory Reacher simulation with unseen scene splits",
+  "development_scenarios": [
+    8950001,
+    8950002,
+    8950003,
+    8950004,
+    8950005,
+    8950006,
+    8950007,
+    8950008,
+    8950009,
+    8950010,
+    8950011,
+    8950012,
+    8950013,
+    8950014,
+    8950015,
+    8950016
+  ],
+  "evaluation_scenarios": [
+    8951001,
+    8951002,
+    8951003,
+    8951004,
+    8951005,
+    8951006,
+    8951007,
+    8951008,
+    8951009,
+    8951010,
+    8951011,
+    8951012,
+    8951013,
+    8951014,
+    8951015,
+    8951016,
+    8951017,
+    8951018,
+    8951019,
+    8951020,
+    8951021,
+    8951022,
+    8951023,
+    8951024
+  ],
+  "cells": [
+    [
+      "q_up",
+      0
+    ],
+    [
+      "q_up",
+      2
+    ],
+    [
+      "q_up",
+      4
+    ],
+    [
+      "r_up",
+      0
+    ],
+    [
+      "r_up",
+      2
+    ],
+    [
+      "r_up",
+      4
+    ]
+  ],
+  "fit_seeds": [
+    8361001,
+    8361002,
+    8361003
+  ],
+  "controller": "same PD and reference acceleration feedforward, common velocity retention .70",
+  "single_event_training": "At tick 80+delay, keep versus skip one accepted neural innovation update; preserve KF update and innovation history; full post-shift trajectory objective.",
+  "model": "7 deployment-visible summary features, standardized ridge regression of keep-minus-skip tracking RMSE and applied torque integral, dual-output aggregate score; trained solely on dev cases; each arriving event gated online.",
+  "thresholds": "global target .5, empirical development data, randomized deterministic tie handling; actual rate reported; branch feedback can shift test rates.",
+  "comparators": "age and innovation thresholds on identical dev set and target .5; always write; Huber capture-aligned KF clipping at 2.5 normalized standard deviations; same PD and filter, exogenous paired.",
+  "data_separation": "test cases not used for training or calibration; regime not passed to model; no physical robot; no claim matching rates exactly in test.",
+  "seed": 946373,
+  "updated_at": "2026-11-25T13:36:35.816346+00:00"
+}
