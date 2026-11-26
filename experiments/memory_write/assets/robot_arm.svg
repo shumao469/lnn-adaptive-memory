@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration of a two-joint robotic arm</title>
+  <desc id="desc">A clean vector illustration of a robotic arm reaching toward a target, with a dotted motion path.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3f8fa"/>
+      <stop offset="1" stop-color="#e7f0f3"/>
+    </linearGradient>
+    <linearGradient id="link" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#263d50"/>
+      <stop offset="1" stop-color="#152a3c"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="9" stdDeviation="10" flood-color="#193247" flood-opacity=".13"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="560" rx="34" fill="url(#bg)"/>
+  <circle cx="1020" cy="98" r="165" fill="#d9e9ec" opacity=".56"/>
+  <circle cx="114" cy="461" r="215" fill="#e0ecee" opacity=".72"/>
+  <path d="M88 434H1114" stroke="#9db2bd" stroke-width="3"/>
+  <path d="M125 434h890" stroke="#fff" stroke-width="2" stroke-dasharray="8 15" opacity=".85"/>
+
+  <!-- target and reachable path -->
+  <path d="M782 215 C836 145 907 153 970 227" fill="none" stroke="#df8055" stroke-width="5" stroke-linecap="round" stroke-dasharray="3 15"/>
+  <circle cx="978" cy="239" r="31" fill="#fff" stroke="#df8055" stroke-width="5"/>
+  <circle cx="978" cy="239" r="11" fill="#df8055"/>
+  <path d="M978 187v-19M978 310v-19M926 239h-19M1049 239h-19" stroke="#df8055" stroke-width="4" stroke-linecap="round" opacity=".75"/>
+
+  <!-- pedestal -->
+  <g filter="url(#shadow)">
+    <path d="M196 435h212l-24-43H220z" fill="#78909d"/>
+    <path d="M222 392h160v-53H222z" fill="#d9e3e7" stroke="#263d50" stroke-width="5"/>
+    <path d="M245 339v-25h114v25" fill="#263d50"/>
+    <path d="M229 435v13M375 435v13" stroke="#263d50" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- shoulder to elbow link -->
+    <path d="M293 313 L485 183" stroke="#132a3d" stroke-width="66" stroke-linecap="round"/>
+    <path d="M293 306 L485 176" stroke="url(#link)" stroke-width="54" stroke-linecap="round"/>
+    <path d="M310 294 L466 188" stroke="#587082" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+    <path d="M317 323 L473 217" stroke="#0f2233" stroke-width="4" stroke-linecap="round" opacity=".5"/>
+    <path d="M390 239l17 24M420 219l17 24" stroke="#718995" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- forearm -->
+    <path d="M509 181 L695 235" stroke="#132a3d" stroke-width="60" stroke-linecap="round"/>
+    <path d="M509 173 L695 227" stroke="url(#link)" stroke-width="48" stroke-linecap="round"/>
+    <path d="M529 164 L679 208" stroke="#627b8a" stroke-width="4" stroke-linecap="round"/>
+    <path d="M542 192 L682 233" stroke="#0f2233" stroke-width="4" stroke-linecap="round" opacity=".5"/>
+    <path d="M586 190l-8 25M616 199l-8 25M646 208l-8 25" stroke="#718995" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- wrist and gripper -->
+    <path d="M715 236 L786 198" stroke="#132a3d" stroke-width="34" stroke-linecap="round"/>
+    <path d="M715 230 L786 192" stroke="#263d50" stroke-width="24" stroke-linecap="round"/>
+    <path d="M790 192l25-25 22 7-21 34M790 199l29 26 21-8-23-30" fill="none" stroke="#df8055" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M802 184l-10-12M804 207l-12 11" stroke="#263d50" stroke-width="8" stroke-linecap="round"/>
+
+    <!-- joints -->
+    <g fill="#edf5f6" stroke="#142d40" stroke-width="9">
+      <circle cx="293" cy="306" r="38"/>
+      <circle cx="493" cy="176" r="34"/>
+      <circle cx="703" cy="229" r="30"/>
+      <circle cx="790" cy="193" r="19"/>
+    </g>
+    <g fill="#36a6a2">
+      <circle cx="293" cy="306" r="13"/>
+      <circle cx="493" cy="176" r="12"/>
+      <circle cx="703" cy="229" r="10"/>
+    </g>
+  </g>
+
+  <!-- restrained sensor accent -->
+  <g transform="translate(526 103)">
+    <rect x="0" y="0" width="75" height="44" rx="14" fill="#fff" stroke="#36a6a2" stroke-width="4"/>
+    <circle cx="22" cy="22" r="7" fill="#36a6a2"/>
+    <path d="M42 14h18M42 22h18M42 30h12" stroke="#a4b9c2" stroke-width="4" stroke-linecap="round"/>
+    <path d="M36 45l-22 29" stroke="#36a6a2" stroke-width="3" stroke-dasharray="4 7"/>
+  </g>
+</svg>

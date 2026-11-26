@@ -91,13 +91,14 @@ protocol and model checkpoint when reporting results.
 
 ## Memory-write and Reacher gate experiments
 
-The [experiment package](experiments/memory_write_20261125/README.md) adds
+The [experiment package](experiments/memory_write/README.md) adds
 single-write and sequential gating code, a double-integrator training bundle
 with frozen observer checkpoints, and a standalone reanalysis of paired
-simulated Reacher results. Run the smoke test and restore the released data:
+simulated Reacher results. The mechanical-arm image is illustrative artwork.
+Restore the released data and run the smoke test:
 
 ```bash
-cd experiments/memory_write_20261125
+cd experiments/memory_write
 python -m pip install numpy scipy torch
 python restore_data.py
 python train_bundle/smoke_test.py
@@ -109,7 +110,7 @@ The simulation uses a known post-switch write budget and horizon; the
 independent reanalysis is included, while complete Reacher retraining still
 requires the original simulator and observer dependencies.
 
-![Simulated Reacher gate comparisons](experiments/memory_write_20261125/assets/reacher_gate_results.png)
+![Illustrative two-joint robotic arm](experiments/memory_write/assets/robot_arm.svg)
 
 ## License and citation
 
