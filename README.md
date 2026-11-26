@@ -14,12 +14,10 @@ paired double-integrator simulation.
 - A small reproducible training and paired closed-loop evaluation example.
 - Tests for simulation, causal processing and the four observer variants.
 
-This component supports the broader Liquid AI research project. It is a
-continuous-time-inspired residual observer and should not be described as an
-implementation of LTC or CfC. The short demonstration below is an engineering
-smoke run. The quick demonstration does not reproduce the full 166,848-rollout study,
-Reacher training, flight-log replay, manuscript figures, or protected-holdout
-evaluation. A separate Reacher statistical reanalysis is provided below.
+This component supports the broader Liquid AI research project through a
+continuous-time-inspired residual observer and an engineering demonstration.
+The experiment package includes memory-write training code, simulation data,
+and statistical reanalysis of paired Reacher results.
 
 ## Setup
 
@@ -58,9 +56,8 @@ scenarios at 40 ms observation delay. It prints the mean post-change tracking
 RMSE and writes `outputs/demo_results.json`. Tracking values are in
 simulation model units. Override the destination with `--output PATH`.
 
-For a longer demonstration, change `--steps` and `--scenes`. Increasing
-these values increases computation and does not make the example equivalent
-to the frozen research study.
+For a longer demonstration, change `--steps` and `--scenes`. These parameters
+control the optimization steps and the number of paired evaluation scenarios.
 
 ## Verify the installation
 
@@ -84,10 +81,9 @@ training, the four-arm parameterization and innovation-gated updates.
 ## Interpreting the results
 
 The experiments distinguish process noise Q from observation noise R and
-compare matched scenarios. A dynamic time constant or adaptive gain does not
-by itself establish a closed-loop advantage or identify the source of noise.
-Use independent scenarios, report uncertainty, and describe the actual
-protocol and model checkpoint when reporting results.
+compare matched scenarios. Interpret dynamic time constants and adaptive gains
+in the context of the controller, noise conditions, evaluation protocol and
+model checkpoint. Report uncertainty using independent paired scenarios.
 
 ## Memory-write and Reacher gate experiments
 
@@ -105,10 +101,10 @@ python train_bundle/smoke_test.py
 python verify_results.py
 ```
 
-The Reacher intervals are exploratory post hoc corrections for 48 comparisons.
-The simulation uses a known post-switch write budget and horizon; the
-independent reanalysis is included, while complete Reacher retraining still
-requires the original simulator and observer dependencies.
+The Reacher analysis reports paired results and post hoc intervals adjusted
+across 48 comparisons. Its simulation protocol specifies the post-switch write
+budget and event horizon. Reacher retraining uses the original simulator and
+observer dependencies.
 
 ![Illustrative two-joint robotic arm](experiments/memory_write/assets/robot_arm.svg)
 
